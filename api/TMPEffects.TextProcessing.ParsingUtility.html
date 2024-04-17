@@ -1,0 +1,881 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ParsingUtility | TMPEffects </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ParsingUtility | TMPEffects ">
+      
+      <meta name="description" content="Utility methods for text processing and parsing.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Luca3317/TMPEffects-Fork/new/main/apiSpec/new?filename=TMPEffects_TextProcessing_ParsingUtility.md&amp;value=---%0Auid%3A%20TMPEffects.TextProcessing.ParsingUtility%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="TMPEffects">
+            TMPEffects
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TMPEffects.TextProcessing.ParsingUtility">
+
+
+
+  <h1 id="TMPEffects_TextProcessing_ParsingUtility" data-uid="TMPEffects.TextProcessing.ParsingUtility" class="text-break">
+Class ParsingUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TMPEffects.html">TMPEffects</a>.<a class="xref" href="TMPEffects.TextProcessing.html">TextProcessing</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Luca3317.TMPEffects.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Utility methods for text processing and parsing.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ParsingUtility</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ParsingUtility</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_ColorKeyWords" data-uid="TMPEffects.TextProcessing.ParsingUtility.ColorKeyWords">
+  ColorKeyWords
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L824"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ReadOnlyDictionary&lt;string, Color&gt; ColorKeyWords</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Color</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_GetNextTag_" data-uid="TMPEffects.TextProcessing.ParsingUtility.GetNextTag*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_GetNextTag_System_String_System_Int32_TMPEffects_TextProcessing_ParsingUtility_TagInfo__TMPEffects_TextProcessing_ParsingUtility_TagType_" data-uid="TMPEffects.TextProcessing.ParsingUtility.GetNextTag(System.String,System.Int32,TMPEffects.TextProcessing.ParsingUtility.TagInfo@,TMPEffects.TextProcessing.ParsingUtility.TagType)">
+  GetNextTag(string, int, ref TagInfo, TagType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the next tag in <code class="paramref">text</code>, starting from <code class="paramref">startIndex</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetNextTag(string text, int startIndex, ref ParsingUtility.TagInfo tag, ParsingUtility.TagType type = TagType.Open | TagType.Close)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The full string.</p>
+</dd>
+    <dt><code>startIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index to start the search from.</p>
+</dd>
+    <dt><code>tag</code> <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.html">ParsingUtility</a>.<a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagInfo.html">TagInfo</a></dt>
+    <dd><p>Reference to a <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagInfo.html">ParsingUtility.TagInfo</a>. Will be set to the parsed tag if one is found.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.html">ParsingUtility</a>.<a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagType.html">TagType</a></dt>
+    <dd><p>The type of tag to get. Leave at default for either type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if a next tag was found; false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_GetTagParametersDict_" data-uid="TMPEffects.TextProcessing.ParsingUtility.GetTagParametersDict*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_GetTagParametersDict_System_String_" data-uid="TMPEffects.TextProcessing.ParsingUtility.GetTagParametersDict(System.String)">
+  GetTagParametersDict(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, string&gt; GetTagParametersDict(string tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_IsTag_" data-uid="TMPEffects.TextProcessing.ParsingUtility.IsTag*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_IsTag_System_String_System_Int32_System_Int32_TMPEffects_TextProcessing_ParsingUtility_TagType_" data-uid="TMPEffects.TextProcessing.ParsingUtility.IsTag(System.String,System.Int32,System.Int32,TMPEffects.TextProcessing.ParsingUtility.TagType)">
+  IsTag(string, int, int, TagType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the given string contains a substring starting at <code class="paramref">startIndex</code>, going up to <code class="paramref">maxIndex</code>, that is a well formed tag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTag(string text, int startIndex, int maxIndex = -1, ParsingUtility.TagType type = TagType.Open | TagType.Close)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to check.</p>
+</dd>
+    <dt><code>startIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The start index of the substring.</p>
+</dd>
+    <dt><code>maxIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The end index of the substring. Leave at default to set to length of <code class="paramref">text</code>.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.html">ParsingUtility</a>.<a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagType.html">TagType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if the given string contains a substring starting at <code class="paramref">startIndex</code>, going up to <code class="paramref">maxIndex</code>, that is a well formed tag; otherwise false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_IsTag_" data-uid="TMPEffects.TextProcessing.ParsingUtility.IsTag*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_IsTag_System_String_TMPEffects_TextProcessing_ParsingUtility_TagType_" data-uid="TMPEffects.TextProcessing.ParsingUtility.IsTag(System.String,TMPEffects.TextProcessing.ParsingUtility.TagType)">
+  IsTag(string, TagType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the given string is a well formed tag (of the given type, if supplied).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTag(string tag, ParsingUtility.TagType type = TagType.Open | TagType.Close)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to check.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.html">ParsingUtility</a>.<a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagType.html">TagType</a></dt>
+    <dd><p>The type of tag to check for. Leave default for either type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if the the given string is a tag (of the given type, if supplied); otherwise false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToAnchor_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToAnchor*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToAnchor_System_String_UnityEngine_Vector2__System_Collections_Generic_IDictionary_System_String_UnityEngine_Vector2__System_Collections_Generic_IDictionary_System_String_UnityEngine_Vector2__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToAnchor(System.String,UnityEngine.Vector2@,System.Collections.Generic.IDictionary{System.String,UnityEngine.Vector2},System.Collections.Generic.IDictionary{System.String,UnityEngine.Vector2})">
+  StringToAnchor(string, out Vector2, IDictionary&lt;string, Vector2&gt;, IDictionary&lt;string, Vector2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L549"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToAnchor(string str, out Vector2 result, IDictionary&lt;string, Vector2&gt; anchorKeywords = null, IDictionary&lt;string, Vector2&gt; vectorKeywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>anchorKeywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Vector2</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>vectorKeywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Vector2</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToAnimationCurve_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToAnimationCurve*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToAnimationCurve_System_String_UnityEngine_AnimationCurve__System_Collections_Generic_IDictionary_System_String_UnityEngine_AnimationCurve__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToAnimationCurve(System.String,UnityEngine.AnimationCurve@,System.Collections.Generic.IDictionary{System.String,UnityEngine.AnimationCurve})">
+  StringToAnimationCurve(string, out AnimationCurve, IDictionary&lt;string, AnimationCurve&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L584"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToAnimationCurve(string str, out AnimationCurve result, IDictionary&lt;string, AnimationCurve&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">AnimationCurve</span></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">AnimationCurve</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToBool_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToBool*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToBool_System_String_System_Boolean__System_Collections_Generic_IDictionary_System_String_System_Boolean__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToBool(System.String,System.Boolean@,System.Collections.Generic.IDictionary{System.String,System.Boolean})">
+  StringToBool(string, out bool, IDictionary&lt;string, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToBool(string str, out bool result, IDictionary&lt;string, bool&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToColor_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToColor*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToColor_System_String_UnityEngine_Color__System_Collections_Generic_IDictionary_System_String_UnityEngine_Color__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToColor(System.String,UnityEngine.Color@,System.Collections.Generic.IDictionary{System.String,UnityEngine.Color})">
+  StringToColor(string, out Color, IDictionary&lt;string, Color&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L657"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToColor(string str, out Color result, IDictionary&lt;string, Color&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Color</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToFloat_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToFloat*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToFloat_System_String_System_Single__System_Collections_Generic_IDictionary_System_String_System_Single__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToFloat(System.String,System.Single@,System.Collections.Generic.IDictionary{System.String,System.Single})">
+  StringToFloat(string, out float, IDictionary&lt;string, float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToFloat(string str, out float result, IDictionary&lt;string, float&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToInt_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToInt*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToInt_System_String_System_Int32__System_Collections_Generic_IDictionary_System_String_System_Int32__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToInt(System.String,System.Int32@,System.Collections.Generic.IDictionary{System.String,System.Int32})">
+  StringToInt(string, out int, IDictionary&lt;string, int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToInt(string str, out int result, IDictionary&lt;string, int&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToVector2_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector2*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToVector2_System_String_UnityEngine_Vector2__System_Collections_Generic_IDictionary_System_String_UnityEngine_Vector2__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector2(System.String,UnityEngine.Vector2@,System.Collections.Generic.IDictionary{System.String,UnityEngine.Vector2})">
+  StringToVector2(string, out Vector2, IDictionary&lt;string, Vector2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToVector2(string str, out Vector2 result, IDictionary&lt;string, Vector2&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Vector2</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToVector2Offset_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector2Offset*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToVector2Offset_System_String_UnityEngine_Vector2__System_Collections_Generic_IDictionary_System_String_UnityEngine_Vector2__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector2Offset(System.String,UnityEngine.Vector2@,System.Collections.Generic.IDictionary{System.String,UnityEngine.Vector2})">
+  StringToVector2Offset(string, out Vector2, IDictionary&lt;string, Vector2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L507"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToVector2Offset(string str, out Vector2 result, IDictionary&lt;string, Vector2&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Vector2</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToVector3_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector3*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToVector3_System_String_UnityEngine_Vector3__System_Collections_Generic_IDictionary_System_String_UnityEngine_Vector3__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector3(System.String,UnityEngine.Vector3@,System.Collections.Generic.IDictionary{System.String,UnityEngine.Vector3})">
+  StringToVector3(string, out Vector3, IDictionary&lt;string, Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToVector3(string str, out Vector3 result, IDictionary&lt;string, Vector3&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Vector3</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToVector3Offset_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector3Offset*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToVector3Offset_System_String_UnityEngine_Vector3__System_Collections_Generic_IDictionary_System_String_UnityEngine_Vector3__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToVector3Offset(System.String,UnityEngine.Vector3@,System.Collections.Generic.IDictionary{System.String,UnityEngine.Vector3})">
+  StringToVector3Offset(string, out Vector3, IDictionary&lt;string, Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L528"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToVector3Offset(string str, out Vector3 result, IDictionary&lt;string, Vector3&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Vector3</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_StringToWaveOffsetType_" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToWaveOffsetType*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_StringToWaveOffsetType_System_String_TMPEffects_TMPAnimations_AnimationUtility_WaveOffsetType__System_Collections_Generic_IDictionary_System_String_TMPEffects_TMPAnimations_AnimationUtility_WaveOffsetType__" data-uid="TMPEffects.TextProcessing.ParsingUtility.StringToWaveOffsetType(System.String,TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType@,System.Collections.Generic.IDictionary{System.String,TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType})">
+  StringToWaveOffsetType(string, out WaveOffsetType, IDictionary&lt;string, WaveOffsetType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L616"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToWaveOffsetType(string str, out AnimationUtility.WaveOffsetType result, IDictionary&lt;string, AnimationUtility.WaveOffsetType&gt; keywords = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="TMPEffects.TMPAnimations.AnimationUtility.html">AnimationUtility</a>.<a class="xref" href="TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html">WaveOffsetType</a></dt>
+    <dd></dd>
+    <dt><code>keywords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="TMPEffects.TMPAnimations.AnimationUtility.html">AnimationUtility</a>.<a class="xref" href="TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html">WaveOffsetType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TMPEffects_TextProcessing_ParsingUtility_TryParseTag_" data-uid="TMPEffects.TextProcessing.ParsingUtility.TryParseTag*"></a>
+
+  <h3 id="TMPEffects_TextProcessing_ParsingUtility_TryParseTag_System_String_System_Int32_System_Int32_TMPEffects_TextProcessing_ParsingUtility_TagInfo__TMPEffects_TextProcessing_ParsingUtility_TagType_" data-uid="TMPEffects.TextProcessing.ParsingUtility.TryParseTag(System.String,System.Int32,System.Int32,TMPEffects.TextProcessing.ParsingUtility.TagInfo@,TMPEffects.TextProcessing.ParsingUtility.TagType)">
+  TryParseTag(string, int, int, ref TagInfo, TagType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Attempt to parse a tag from the substring of <code class="paramref">text</code> given by <code class="paramref">startIndex</code> and <code class="paramref">endIndex</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParseTag(string text, int startIndex, int endIndex, ref ParsingUtility.TagInfo tag, ParsingUtility.TagType type = TagType.Open | TagType.Close)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The full string.</p>
+</dd>
+    <dt><code>startIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Start index of the substring.</p>
+</dd>
+    <dt><code>endIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>End index of the substring.</p>
+</dd>
+    <dt><code>tag</code> <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.html">ParsingUtility</a>.<a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagInfo.html">TagInfo</a></dt>
+    <dd><p>Reference to a <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagInfo.html">ParsingUtility.TagInfo</a>. Will be set to the parsed tag if successful.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.html">ParsingUtility</a>.<a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagType.html">TagType</a></dt>
+    <dd><p>The type of tag to check for. Leave at default for either type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if a tag was successfully parsed from the substring; false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/TextProcessing/ParsingUtility.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

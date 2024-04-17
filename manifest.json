@@ -1,0 +1,2691 @@
+{
+  "source_base_path": "C:/UnityProjects/TMPEffects/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.CharData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.CharData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.CharDataState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.CharDataState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.Info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.ReadOnlyCharDataState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.ReadOnlyCharDataState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.ReadOnlyVertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.ReadOnlyVertexData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.VertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.VertexData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.VisibilityState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.VisibilityState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.AnimatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.AnimatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.IAnimatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.IAnimatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.ReadOnlyAnimatorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.ReadOnlyAnimatorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.SegmentData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.SegmentData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.TMPAnimationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.TMPAnimationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.UpdateFrom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.UpdateFrom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Animator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Animator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.TMPMediator.EmptyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.TMPMediator.EmptyEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.TMPMediator.RangeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.TMPMediator.RangeEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.TMPMediator.TextChangedEarlyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.TMPMediator.TextChangedEarlyEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.TMPMediator.TextChangedLateEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.TMPMediator.TextChangedLateEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.TMPMediator.VisibilityEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.TMPMediator.VisibilityEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.TMPMediator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.TMPMediator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.Mediator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.Mediator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.TMPAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.TMPAnimator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.TMPEffectComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.TMPEffectComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.TMPWriter.DelayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.TMPWriter.DelayType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.TMPWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.TMPWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.AnimationDatabase.TMPAnimationDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.AnimationDatabase.TMPAnimationDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.AnimationDatabase.TMPAnimationDatabaseBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.AnimationDatabase.TMPAnimationDatabaseBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.AnimationDatabase.TMPBasicAnimationDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.AnimationDatabase.TMPBasicAnimationDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.AnimationDatabase.TMPHideAnimationDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.AnimationDatabase.TMPHideAnimationDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.AnimationDatabase.TMPShowAnimationDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.AnimationDatabase.TMPShowAnimationDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.AnimationDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.AnimationDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.CommandDatabase.TMPCommandDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.CommandDatabase.TMPCommandDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.CommandDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.CommandDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.ITMPEffectDatabase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.ITMPEffectDatabase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.ITMPEffectDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.ITMPEffectDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.TMPEffectDatabase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.TMPEffectDatabase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Databases.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Databases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.EffectCategories.TMPAnimationCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.EffectCategories.TMPAnimationCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.EffectCategories.TMPCommandCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.EffectCategories.TMPCommandCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.EffectCategories.TMPEffectCategory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.EffectCategories.TMPEffectCategory-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.EffectCategories.TMPEffectCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.EffectCategories.TMPEffectCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.EffectCategories.TMPEventCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.EffectCategories.TMPEventCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.EffectCategories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.EffectCategories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Extensions.AnimationCurveUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Extensions.AnimationCurveUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Extensions.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Extensions.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.IIntervalTree-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Intervaltree.IIntervalTree-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.IntervalTree-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Intervaltree.IntervalTree-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.RangeValuePair-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Intervaltree.RangeValuePair-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Intervaltree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ObjectChanged.INotifyObjectChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ObjectChanged.INotifyObjectChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ObjectChanged.ObjectChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ObjectChanged.ObjectChangedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ObjectChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ObjectChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ParameterUtility.ParseDelegate-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ParameterUtility.ParseDelegate-4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ParameterUtility.TypedVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ParameterUtility.TypedVector2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ParameterUtility.TypedVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ParameterUtility.TypedVector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ParameterUtility.VectorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ParameterUtility.VectorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ParameterUtility.WaveParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ParameterUtility.WaveParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ParameterUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.ParameterUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.AnimationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.AnimationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.AnimationUtility.Wave.PulseExtrema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.AnimationUtility.Wave.PulseExtrema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.AnimationUtility.Wave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.AnimationUtility.Wave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.AnimationUtility.WaveBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.AnimationUtility.WaveBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.AnimationUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.AnimationUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.CharAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.CharAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.ContPivotAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.ContPivotAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.FadeAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.FadeAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.FunkyAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.FunkyAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.GrowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.GrowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.PaletteAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.PaletteAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.PivotAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.PivotAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.ShakeAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.ShakeAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.WaveAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.WaveAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.Animations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.Animations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.CharHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.CharHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.DummyHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.DummyHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.FadeHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.FadeHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.GrowHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.GrowHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.MoveInHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.MoveInHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.PivotHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.PivotHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.ShakeHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.ShakeHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.SpreadHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.SpreadHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.HideAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.HideAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.IAnimationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.IAnimationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ITMPAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ITMPAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ReadOnlyAnimationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ReadOnlyAnimationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.CharShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.CharShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.DummyShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.DummyShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.FadeShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.FadeShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.GrowShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.GrowShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.MoveInShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.MoveInShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.PivotShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.PivotShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.ShakeShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.ShakeShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.SpreadAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.SpreadAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.SpreadShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.SpreadShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.ShowAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.ShowAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.TMPAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.TMPAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.TMPAnimationParameterless.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.TMPAnimationParameterless.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.TMPHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.TMPHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.TMPShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.TMPShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.Commands.DebugCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.Commands.DebugCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.Commands.DelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.Commands.DelayCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.Commands.ShowCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.Commands.ShowCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.Commands.SkippableCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.Commands.SkippableCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.Commands.WaitCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.Commands.WaitCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.ITMPCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.ITMPCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.TMPCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.TMPCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.TMPCommandArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.TMPCommandArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.TMPSceneCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.TMPSceneCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.TagType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.TagType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPCommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPEvents.TMPEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPEvents.TMPEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPEvents.TMPEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPEvents.TMPEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPEvents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.Animations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.Animations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.Draggable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.Draggable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.TMPSceneAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.TMPSceneAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.TMPSceneAnimationBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.TMPSceneAnimationBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.TMPSceneHideAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.TMPSceneHideAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.TMPSceneShowAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.TMPSceneShowAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TMPSceneAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.CachedCollection-1.MinMax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.CachedCollection-1.MinMax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.CachedCollection-1.StructContainingEnumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.CachedCollection-1.StructContainingEnumerable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.CachedCollection-1.StructContainingEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.CachedCollection-1.StructContainingEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.CachedCollection-1.StructReversedContainingEnumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.CachedCollection-1.StructReversedContainingEnumerable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.CachedCollection-1.StructReversedContainingEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.CachedCollection-1.StructReversedContainingEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.CachedCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.CachedCollection-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.IReadOnlyTagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.IReadOnlyTagCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.ITagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.ITagCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.ITagCollectionManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.ITagCollectionManager-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.ObservableTagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.ObservableTagCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.ReadOnlyTagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.ReadOnlyTagCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.TagCollection.StartIndexOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.TagCollection.StartIndexOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.TagCollection.TempIndices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.TagCollection.TempIndices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.TagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.TagCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.ITMPPrefixSupplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.ITMPPrefixSupplier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.ITMPTagValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.ITMPTagValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.ITagCacher-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.ITagCacher-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.ITagWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.ITagWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.TMPEffectTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.TMPEffectTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.TMPEffectTagIndices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.TMPEffectTagIndices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.TMPEffectTagTuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.TMPEffectTagTuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Tags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.ITagProcessorManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.ITagProcessorManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.ParsingUtility.TagInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.ParsingUtility.TagInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.ParsingUtility.TagType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.ParsingUtility.TagType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.ParsingUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.ParsingUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.TMPTextProcessor.TMPTextProcessorEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.TMPTextProcessor.TMPTextProcessorEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.TMPTextProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.TMPTextProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.TagProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.TagProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.TagProcessorManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.TagProcessorManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TextProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.TextProcessing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/animatingacharacter.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/animatingacharacter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/animationcurveutility.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/animationcurveutility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/animationutility.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/animationutility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/autoparameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/autoparameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/chardata.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/chardata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/effecttag.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/effecttag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/ianimationcontext.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ianimationcontext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/parameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/parametertypes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/parametertypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/parameterutility.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/parameterutility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tagcollections.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tagcollections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_addinganimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_addinganimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_animationutility_wave.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_animationutility_wave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_builtinbasicanimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_builtinbasicanimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_builtinshowhideanimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_builtinshowhideanimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_componentoverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_componentoverview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_creatinganimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_creatinganimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_gettingstarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_gettingstarted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_sceneanimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_sceneanimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpanimator_showhideanimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpanimator_showhideanimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpwriter.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpwriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpwriter_builtincommands.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpwriter_builtincommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpwriter_componentoverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpwriter_componentoverview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpwriter_creatingcommands.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpwriter_creatingcommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpwriter_gettingstarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpwriter_gettingstarted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/tmpwriter_scenecommands.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tmpwriter_scenecommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/plugins/autoparameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "plugins/autoparameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/plugins/plugins.md",
+      "output": {
+        ".html": {
+          "relative_path": "plugins/plugins.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/plugins/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugins/toc.html"
+        },
+        ".json": {
+          "relative_path": "plugins/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/000111.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/000111.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/000111butworse.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/000111butworse.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/diagram.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/scenecommandexampl.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/scenecommandexampl.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/wave1.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/wave1.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/wave2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/wave2.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatetext.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatetext.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/colors.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/colors.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/jumping.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/jumping.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/moving.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/moving.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/positions.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/positions.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/rotating.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/rotating.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/scaling.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/scaling.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/animatingacharacter/uvs.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/animatingacharacter/uvs.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/fadevalues.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/fadevalues.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/firstanimation.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/firstanimation.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/firstanimation2.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/firstanimation2.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/firstanimation3.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/firstanimation3.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/firstanimation4.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/firstanimation4.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/flashlightanimation.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/flashlightanimation.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/hidetext.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/hidetext.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/main.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/main.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/main_dark.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/main_dark.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/main_darkfix.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/main_darkfix.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/char.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/char.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/fade.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/fade.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/funky-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/funky-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/funky-old2.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/funky-old2.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/funky.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/funky.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/grow.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/grow.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/jump.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/jump.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/palette.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/palette.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/pivot.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/pivot.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/pivotc-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/pivotc-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/pivotc.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/pivotc.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/shake.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/shake.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/spread.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/spread.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/swing-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/swing-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/swing-old2.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/swing-old2.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/swing.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/swing.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/wave-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/wave-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/wave-old2.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/wave-old2.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/basic/wave.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/basic/wave.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/commands/delay.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/commands/delay.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/commands/show.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/commands/show.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/commands/skippable.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/commands/skippable.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/char-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/char-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/char.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/char.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/fade-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/fade-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/fade.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/fade.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/grow-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/grow-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/grow.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/grow.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/move-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/move-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/move.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/move.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/pivot-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/pivot-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/pivot.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/pivot.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/shake-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/shake-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/shake.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/shake.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/spread-old.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/spread-old.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/previews/showhide/spread.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/previews/showhide/spread.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/showhide1.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/showhide1.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/showhidetext.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/showhidetext.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/showtext.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/showtext.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/uniformitydiff.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/uniformitydiff.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/writetext.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/writetext.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/writetext2.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/writetext2.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/writetext3.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/writetext3.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/writetextanimated.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/writetextanimated.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/writetextnoanim.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/writetextnoanim.mp4"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "videos/writetextnoanim2.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "videos/writetextnoanim2.mp4"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
