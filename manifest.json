@@ -492,46 +492,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.IIntervalTree-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.Intervaltree.IIntervalTree-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.IntervalTree-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.Intervaltree.IntervalTree-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.RangeValuePair-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.Intervaltree.RangeValuePair-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Intervaltree.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.Intervaltree.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.ObjectChanged.INotifyObjectChanged.yml",
       "output": {
         ".html": {
@@ -1202,36 +1162,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.Animations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.TMPSceneAnimations.Animations.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.Draggable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TMPEffects.TMPSceneAnimations.Draggable.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.TMPSceneAnimations.TMPSceneAnimation.yml",
       "output": {
         ".html": {
@@ -1675,6 +1605,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/databases.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/databases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/effecttag.md",
       "output": {
         ".html": {
@@ -1685,20 +1625,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/getting-started.md",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/ianimationcontext.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/ianimationcontext.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/ianimationcontext.md",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/docs/installation.md",
       "output": {
         ".html": {
-          "relative_path": "docs/ianimationcontext.html"
+          "relative_path": "docs/installation.html"
         }
       },
       "version": ""
@@ -2018,6 +1958,26 @@
       "output": {
         "resource": {
           "relative_path": "images/scenecommandexampl.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/upm.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/upm.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/upm2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/upm2.png"
         }
       },
       "version": ""

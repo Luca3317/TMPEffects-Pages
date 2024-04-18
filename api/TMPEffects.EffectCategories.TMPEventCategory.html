@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Luca3317/TMPEffects-Fork/new/main/apiSpec/new?filename=TMPEffects_EffectCategories_TMPEventCategory.md&amp;value=---%0Auid%3A%20TMPEffects.EffectCategories.TMPEventCategory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Luca3317/TMPEffects/new/main/apiSpec/new?filename=TMPEffects_EffectCategories_TMPEventCategory.md&amp;value=---%0Auid%3A%20TMPEffects.EffectCategories.TMPEventCategory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,12 +89,12 @@
 
 
   <h1 id="TMPEffects_EffectCategories_TMPEventCategory" data-uid="TMPEffects.EffectCategories.TMPEventCategory" class="text-break">
-Class TMPEventCategory  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class TMPEventCategory  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
     <dl><dt>Namespace</dt><dd><a class="xref" href="TMPEffects.html">TMPEffects</a>.<a class="xref" href="TMPEffects.EffectCategories.html">EffectCategories</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Luca3317.TMPEffects.dll</dd></dl>
+  <dl><dt>Assembly</dt><dd>TMPEffects.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>Category for events.</p>
@@ -171,7 +171,7 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
 
   <h3 id="TMPEffects_EffectCategories_TMPEventCategory__ctor_System_Char_" data-uid="TMPEffects.EffectCategories.TMPEventCategory.#ctor(System.Char)">
   TMPEventCategory(char)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -204,9 +204,9 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
 
   <a id="TMPEffects_EffectCategories_TMPEventCategory_ValidateOpenTag_" data-uid="TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag*"></a>
 
-  <h3 id="TMPEffects_EffectCategories_TMPEventCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__" data-uid="TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)">
-  ValidateOpenTag(TagInfo, out TMPEffectTag)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TMPEffects_EffectCategories_TMPEventCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__System_Int32__" data-uid="TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)">
+  ValidateOpenTag(TagInfo, out TMPEffectTag, out int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate a given <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagInfo.html">ParsingUtility.TagInfo</a>. MUST be of type <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagType.html#TMPEffects_TextProcessing_ParsingUtility_TagType_Open">Open</a>.</p>
@@ -214,7 +214,7 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool ValidateOpenTag(ParsingUtility.TagInfo tagInfo, out TMPEffectTag data)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool ValidateOpenTag(ParsingUtility.TagInfo tagInfo, out TMPEffectTag data, out int endIndex)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -224,6 +224,9 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
 </dd>
     <dt><code>data</code> <a class="xref" href="TMPEffects.Tags.TMPEffectTag.html">TMPEffectTag</a></dt>
     <dd><p>Assuming the tag is validated, this will be set to the created <a class="xref" href="TMPEffects.Tags.TMPEffectTag.html">TMPEffectTag</a>; otherwise it will be null.</p>
+</dd>
+    <dt><code>endIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Assuming the tag is validated, this will be set to the endIndex of the tag. TODO this arguably exceeds ITMPTagValidators responsibilities</p>
 </dd>
   </dl>
 
@@ -253,7 +256,7 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
 
   <h3 id="TMPEffects_EffectCategories_TMPEventCategory_ValidateTag_TMPEffects_Tags_TMPEffectTag_" data-uid="TMPEffects.EffectCategories.TMPEventCategory.ValidateTag(TMPEffects.Tags.TMPEffectTag)">
   ValidateTag(TMPEffectTag)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate a given <a class="xref" href="TMPEffects.Tags.TMPEffectTag.html">TMPEffectTag</a>.</p>
@@ -292,7 +295,7 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
 
   <h3 id="TMPEffects_EffectCategories_TMPEventCategory_ValidateTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_" data-uid="TMPEffects.EffectCategories.TMPEventCategory.ValidateTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo)">
   ValidateTag(TagInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate a given <a class="xref" href="TMPEffects.TextProcessing.ParsingUtility.TagInfo.html">ParsingUtility.TagInfo</a>.</p>
@@ -331,7 +334,7 @@ Class TMPEventCategory  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Luca3317/TMPEffects-Fork/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/EffectCategories/TMPEventCategory.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

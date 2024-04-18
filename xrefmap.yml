@@ -3930,38 +3930,6 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.SetWhitespaceDelay
   nameWithType: TMPWriter.SetWhitespaceDelay
-- uid: TMPEffects.Components.TMPWriter.SetWriteOnNewText(System.Boolean)
-  name: SetWriteOnNewText(bool)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetWriteOnNewText_System_Boolean_
-  commentId: M:TMPEffects.Components.TMPWriter.SetWriteOnNewText(System.Boolean)
-  name.vb: SetWriteOnNewText(Boolean)
-  fullName: TMPEffects.Components.TMPWriter.SetWriteOnNewText(bool)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetWriteOnNewText(Boolean)
-  nameWithType: TMPWriter.SetWriteOnNewText(bool)
-  nameWithType.vb: TMPWriter.SetWriteOnNewText(Boolean)
-- uid: TMPEffects.Components.TMPWriter.SetWriteOnNewText*
-  name: SetWriteOnNewText
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetWriteOnNewText_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetWriteOnNewText
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetWriteOnNewText
-  nameWithType: TMPWriter.SetWriteOnNewText
-- uid: TMPEffects.Components.TMPWriter.SetWriteOnStart(System.Boolean)
-  name: SetWriteOnStart(bool)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetWriteOnStart_System_Boolean_
-  commentId: M:TMPEffects.Components.TMPWriter.SetWriteOnStart(System.Boolean)
-  name.vb: SetWriteOnStart(Boolean)
-  fullName: TMPEffects.Components.TMPWriter.SetWriteOnStart(bool)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetWriteOnStart(Boolean)
-  nameWithType: TMPWriter.SetWriteOnStart(bool)
-  nameWithType.vb: TMPWriter.SetWriteOnStart(Boolean)
-- uid: TMPEffects.Components.TMPWriter.SetWriteOnStart*
-  name: SetWriteOnStart
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetWriteOnStart_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetWriteOnStart
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetWriteOnStart
-  nameWithType: TMPWriter.SetWriteOnStart
 - uid: TMPEffects.Components.TMPWriter.SkipWriter(System.Boolean)
   name: SkipWriter(bool)
   href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SkipWriter_System_Boolean_
@@ -4049,6 +4017,32 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.WaitUntil
   nameWithType: TMPWriter.WaitUntil
+- uid: TMPEffects.Components.TMPWriter.WriteOnNewText
+  name: WriteOnNewText
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_WriteOnNewText
+  commentId: P:TMPEffects.Components.TMPWriter.WriteOnNewText
+  fullName: TMPEffects.Components.TMPWriter.WriteOnNewText
+  nameWithType: TMPWriter.WriteOnNewText
+- uid: TMPEffects.Components.TMPWriter.WriteOnNewText*
+  name: WriteOnNewText
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_WriteOnNewText_
+  commentId: Overload:TMPEffects.Components.TMPWriter.WriteOnNewText
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.WriteOnNewText
+  nameWithType: TMPWriter.WriteOnNewText
+- uid: TMPEffects.Components.TMPWriter.WriteOnStart
+  name: WriteOnStart
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_WriteOnStart
+  commentId: P:TMPEffects.Components.TMPWriter.WriteOnStart
+  fullName: TMPEffects.Components.TMPWriter.WriteOnStart
+  nameWithType: TMPWriter.WriteOnStart
+- uid: TMPEffects.Components.TMPWriter.WriteOnStart*
+  name: WriteOnStart
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_WriteOnStart_
+  commentId: Overload:TMPEffects.Components.TMPWriter.WriteOnStart
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.WriteOnStart
+  nameWithType: TMPWriter.WriteOnStart
 - uid: TMPEffects.Databases
   name: TMPEffects.Databases
   href: api/TMPEffects.Databases.html
@@ -4586,15 +4580,15 @@ references:
   isSpec: "True"
   fullName: TMPEffects.EffectCategories.TMPAnimationCategory.GetEffect
   nameWithType: TMPAnimationCategory.GetEffect
-- uid: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name: ValidateOpenTag(TagInfo, out TMPEffectTag)
-  href: api/TMPEffects.EffectCategories.TMPAnimationCategory.html#TMPEffects_EffectCategories_TMPAnimationCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__
-  commentId: M:TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag)
-  fullName: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag)
-  fullName.vb: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag)
-  nameWithType: TMPAnimationCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag)
-  nameWithType.vb: TMPAnimationCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag)
+- uid: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name: ValidateOpenTag(TagInfo, out TMPEffectTag, out int)
+  href: api/TMPEffects.EffectCategories.TMPAnimationCategory.html#TMPEffects_EffectCategories_TMPAnimationCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__System_Int32__
+  commentId: M:TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag, Integer)
+  fullName: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag, out int)
+  fullName.vb: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag, Integer)
+  nameWithType: TMPAnimationCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag, out int)
+  nameWithType.vb: TMPAnimationCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag, Integer)
 - uid: TMPEffects.EffectCategories.TMPAnimationCategory.ValidateOpenTag*
   name: ValidateOpenTag
   href: api/TMPEffects.EffectCategories.TMPAnimationCategory.html#TMPEffects_EffectCategories_TMPAnimationCategory_ValidateOpenTag_
@@ -4678,15 +4672,15 @@ references:
   isSpec: "True"
   fullName: TMPEffects.EffectCategories.TMPCommandCategory.GetEffect
   nameWithType: TMPCommandCategory.GetEffect
-- uid: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name: ValidateOpenTag(TagInfo, out TMPEffectTag)
-  href: api/TMPEffects.EffectCategories.TMPCommandCategory.html#TMPEffects_EffectCategories_TMPCommandCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__
-  commentId: M:TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag)
-  fullName: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag)
-  fullName.vb: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag)
-  nameWithType: TMPCommandCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag)
-  nameWithType.vb: TMPCommandCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag)
+- uid: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name: ValidateOpenTag(TagInfo, out TMPEffectTag, out int)
+  href: api/TMPEffects.EffectCategories.TMPCommandCategory.html#TMPEffects_EffectCategories_TMPCommandCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__System_Int32__
+  commentId: M:TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag, Integer)
+  fullName: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag, out int)
+  fullName.vb: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag, Integer)
+  nameWithType: TMPCommandCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag, out int)
+  nameWithType.vb: TMPCommandCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag, Integer)
 - uid: TMPEffects.EffectCategories.TMPCommandCategory.ValidateOpenTag*
   name: ValidateOpenTag
   href: api/TMPEffects.EffectCategories.TMPCommandCategory.html#TMPEffects_EffectCategories_TMPCommandCategory_ValidateOpenTag_
@@ -4751,15 +4745,15 @@ references:
   isSpec: "True"
   fullName: TMPEffects.EffectCategories.TMPEffectCategory.Prefix
   nameWithType: TMPEffectCategory.Prefix
-- uid: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name: ValidateOpenTag(TagInfo, out TMPEffectTag)
-  href: api/TMPEffects.EffectCategories.TMPEffectCategory.html#TMPEffects_EffectCategories_TMPEffectCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__
-  commentId: M:TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag)
-  fullName: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag)
-  fullName.vb: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag)
-  nameWithType: TMPEffectCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag)
-  nameWithType.vb: TMPEffectCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag)
+- uid: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name: ValidateOpenTag(TagInfo, out TMPEffectTag, out int)
+  href: api/TMPEffects.EffectCategories.TMPEffectCategory.html#TMPEffects_EffectCategories_TMPEffectCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__System_Int32__
+  commentId: M:TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag, Integer)
+  fullName: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag, out int)
+  fullName.vb: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag, Integer)
+  nameWithType: TMPEffectCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag, out int)
+  nameWithType.vb: TMPEffectCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag, Integer)
 - uid: TMPEffects.EffectCategories.TMPEffectCategory.ValidateOpenTag*
   name: ValidateOpenTag
   href: api/TMPEffects.EffectCategories.TMPEffectCategory.html#TMPEffects_EffectCategories_TMPEffectCategory_ValidateOpenTag_
@@ -4881,15 +4875,15 @@ references:
   fullName.vb: TMPEffects.EffectCategories.TMPEventCategory.New
   nameWithType: TMPEventCategory.TMPEventCategory
   nameWithType.vb: TMPEventCategory.New
-- uid: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name: ValidateOpenTag(TagInfo, out TMPEffectTag)
-  href: api/TMPEffects.EffectCategories.TMPEventCategory.html#TMPEffects_EffectCategories_TMPEventCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__
-  commentId: M:TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag)
-  fullName: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag)
-  fullName.vb: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag)
-  nameWithType: TMPEventCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag)
-  nameWithType.vb: TMPEventCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag)
+- uid: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name: ValidateOpenTag(TagInfo, out TMPEffectTag, out int)
+  href: api/TMPEffects.EffectCategories.TMPEventCategory.html#TMPEffects_EffectCategories_TMPEventCategory_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__System_Int32__
+  commentId: M:TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag, Integer)
+  fullName: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag, out int)
+  fullName.vb: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag, Integer)
+  nameWithType: TMPEventCategory.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag, out int)
+  nameWithType.vb: TMPEventCategory.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag, Integer)
 - uid: TMPEffects.EffectCategories.TMPEventCategory.ValidateOpenTag*
   name: ValidateOpenTag
   href: api/TMPEffects.EffectCategories.TMPEventCategory.html#TMPEffects_EffectCategories_TMPEventCategory_ValidateOpenTag_
@@ -5695,525 +5689,6 @@ references:
   fullName.vb: TMPEffects.Extensions.Extensions.GetOrAddComponent(Of T)(UnityEngine.GameObject)
   nameWithType: Extensions.GetOrAddComponent<T>(GameObject)
   nameWithType.vb: Extensions.GetOrAddComponent(Of T)(GameObject)
-- uid: TMPEffects.Intervaltree
-  name: TMPEffects.Intervaltree
-  href: api/TMPEffects.Intervaltree.html
-  commentId: N:TMPEffects.Intervaltree
-  fullName: TMPEffects.Intervaltree
-  nameWithType: TMPEffects.Intervaltree
-- uid: TMPEffects.Intervaltree.IIntervalTree`2
-  name: IIntervalTree<TKey, TValue>
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html
-  commentId: T:TMPEffects.Intervaltree.IIntervalTree`2
-  name.vb: IIntervalTree(Of TKey, TValue)
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue)
-  nameWithType: IIntervalTree<TKey, TValue>
-  nameWithType.vb: IIntervalTree(Of TKey, TValue)
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Add(`0,`0,`1)
-  name: Add(TKey, TKey, TValue)
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Add__0__0__1_
-  commentId: M:TMPEffects.Intervaltree.IIntervalTree`2.Add(`0,`0,`1)
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Add(TKey, TKey, TValue)
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Add(TKey, TKey, TValue)
-  nameWithType: IIntervalTree<TKey, TValue>.Add(TKey, TKey, TValue)
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Add(TKey, TKey, TValue)
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Add*
-  name: Add
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Add_
-  commentId: Overload:TMPEffects.Intervaltree.IIntervalTree`2.Add
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Add
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Add
-  nameWithType: IIntervalTree<TKey, TValue>.Add
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Add
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Clear
-  name: Clear()
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Clear
-  commentId: M:TMPEffects.Intervaltree.IIntervalTree`2.Clear
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Clear()
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Clear()
-  nameWithType: IIntervalTree<TKey, TValue>.Clear()
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Clear()
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Clear*
-  name: Clear
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Clear_
-  commentId: Overload:TMPEffects.Intervaltree.IIntervalTree`2.Clear
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Clear
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Clear
-  nameWithType: IIntervalTree<TKey, TValue>.Clear
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Clear
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Count
-  name: Count
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Count
-  commentId: P:TMPEffects.Intervaltree.IIntervalTree`2.Count
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Count
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Count
-  nameWithType: IIntervalTree<TKey, TValue>.Count
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Count
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Count*
-  name: Count
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Count_
-  commentId: Overload:TMPEffects.Intervaltree.IIntervalTree`2.Count
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Count
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Count
-  nameWithType: IIntervalTree<TKey, TValue>.Count
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Count
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Query(`0)
-  name: Query(TKey)
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Query__0_
-  commentId: M:TMPEffects.Intervaltree.IIntervalTree`2.Query(`0)
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Query(TKey)
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Query(TKey)
-  nameWithType: IIntervalTree<TKey, TValue>.Query(TKey)
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Query(TKey)
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Query(`0,`0)
-  name: Query(TKey, TKey)
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Query__0__0_
-  commentId: M:TMPEffects.Intervaltree.IIntervalTree`2.Query(`0,`0)
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Query(TKey, TKey)
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Query(TKey, TKey)
-  nameWithType: IIntervalTree<TKey, TValue>.Query(TKey, TKey)
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Query(TKey, TKey)
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Query*
-  name: Query
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Query_
-  commentId: Overload:TMPEffects.Intervaltree.IIntervalTree`2.Query
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Query
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Query
-  nameWithType: IIntervalTree<TKey, TValue>.Query
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Query
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Remove(System.Collections.Generic.IEnumerable{`1})
-  name: Remove(IEnumerable<TValue>)
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Remove_System_Collections_Generic_IEnumerable__1__
-  commentId: M:TMPEffects.Intervaltree.IIntervalTree`2.Remove(System.Collections.Generic.IEnumerable{`1})
-  name.vb: Remove(IEnumerable(Of TValue))
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Remove(System.Collections.Generic.IEnumerable<TValue>)
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Remove(System.Collections.Generic.IEnumerable(Of TValue))
-  nameWithType: IIntervalTree<TKey, TValue>.Remove(IEnumerable<TValue>)
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Remove(IEnumerable(Of TValue))
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Remove(`1)
-  name: Remove(TValue)
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Remove__1_
-  commentId: M:TMPEffects.Intervaltree.IIntervalTree`2.Remove(`1)
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Remove(TValue)
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Remove(TValue)
-  nameWithType: IIntervalTree<TKey, TValue>.Remove(TValue)
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Remove(TValue)
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Remove*
-  name: Remove
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Remove_
-  commentId: Overload:TMPEffects.Intervaltree.IIntervalTree`2.Remove
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Remove
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Remove
-  nameWithType: IIntervalTree<TKey, TValue>.Remove
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Remove
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Values
-  name: Values
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Values
-  commentId: P:TMPEffects.Intervaltree.IIntervalTree`2.Values
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Values
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Values
-  nameWithType: IIntervalTree<TKey, TValue>.Values
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Values
-- uid: TMPEffects.Intervaltree.IIntervalTree`2.Values*
-  name: Values
-  href: api/TMPEffects.Intervaltree.IIntervalTree-2.html#TMPEffects_Intervaltree_IIntervalTree_2_Values_
-  commentId: Overload:TMPEffects.Intervaltree.IIntervalTree`2.Values
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IIntervalTree<TKey, TValue>.Values
-  fullName.vb: TMPEffects.Intervaltree.IIntervalTree(Of TKey, TValue).Values
-  nameWithType: IIntervalTree<TKey, TValue>.Values
-  nameWithType.vb: IIntervalTree(Of TKey, TValue).Values
-- uid: TMPEffects.Intervaltree.IntervalTree`2
-  name: IntervalTree<TKey, TValue>
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html
-  commentId: T:TMPEffects.Intervaltree.IntervalTree`2
-  name.vb: IntervalTree(Of TKey, TValue)
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue)
-  nameWithType: IntervalTree<TKey, TValue>
-  nameWithType.vb: IntervalTree(Of TKey, TValue)
-- uid: TMPEffects.Intervaltree.IntervalTree`2.#ctor
-  name: IntervalTree()
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2__ctor
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.#ctor
-  name.vb: New()
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.IntervalTree()
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).New()
-  nameWithType: IntervalTree<TKey, TValue>.IntervalTree()
-  nameWithType.vb: IntervalTree(Of TKey, TValue).New()
-- uid: TMPEffects.Intervaltree.IntervalTree`2.#ctor(System.Collections.Generic.IComparer{`0})
-  name: IntervalTree(IComparer<TKey>)
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2__ctor_System_Collections_Generic_IComparer__0__
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.#ctor(System.Collections.Generic.IComparer{`0})
-  name.vb: New(IComparer(Of TKey))
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.IntervalTree(System.Collections.Generic.IComparer<TKey>)
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).New(System.Collections.Generic.IComparer(Of TKey))
-  nameWithType: IntervalTree<TKey, TValue>.IntervalTree(IComparer<TKey>)
-  nameWithType.vb: IntervalTree(Of TKey, TValue).New(IComparer(Of TKey))
-- uid: TMPEffects.Intervaltree.IntervalTree`2.#ctor*
-  name: IntervalTree
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2__ctor_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.IntervalTree
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).New
-  nameWithType: IntervalTree<TKey, TValue>.IntervalTree
-  nameWithType.vb: IntervalTree(Of TKey, TValue).New
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Add(`0,`0,`1)
-  name: Add(TKey, TKey, TValue)
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Add__0__0__1_
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.Add(`0,`0,`1)
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Add(TKey, TKey, TValue)
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Add(TKey, TKey, TValue)
-  nameWithType: IntervalTree<TKey, TValue>.Add(TKey, TKey, TValue)
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Add(TKey, TKey, TValue)
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Add*
-  name: Add
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Add_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Add
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Add
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Add
-  nameWithType: IntervalTree<TKey, TValue>.Add
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Add
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Clear
-  name: Clear()
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Clear
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.Clear
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Clear()
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Clear()
-  nameWithType: IntervalTree<TKey, TValue>.Clear()
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Clear()
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Clear*
-  name: Clear
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Clear_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Clear
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Clear
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Clear
-  nameWithType: IntervalTree<TKey, TValue>.Clear
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Clear
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Count
-  name: Count
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Count
-  commentId: P:TMPEffects.Intervaltree.IntervalTree`2.Count
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Count
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Count
-  nameWithType: IntervalTree<TKey, TValue>.Count
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Count
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Count*
-  name: Count
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Count_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Count
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Count
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Count
-  nameWithType: IntervalTree<TKey, TValue>.Count
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Count
-- uid: TMPEffects.Intervaltree.IntervalTree`2.GetEnumerator
-  name: GetEnumerator()
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_GetEnumerator
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.GetEnumerator
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.GetEnumerator()
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).GetEnumerator()
-  nameWithType: IntervalTree<TKey, TValue>.GetEnumerator()
-  nameWithType.vb: IntervalTree(Of TKey, TValue).GetEnumerator()
-- uid: TMPEffects.Intervaltree.IntervalTree`2.GetEnumerator*
-  name: GetEnumerator
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_GetEnumerator_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.GetEnumerator
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.GetEnumerator
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).GetEnumerator
-  nameWithType: IntervalTree<TKey, TValue>.GetEnumerator
-  nameWithType.vb: IntervalTree(Of TKey, TValue).GetEnumerator
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Max
-  name: Max
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Max
-  commentId: P:TMPEffects.Intervaltree.IntervalTree`2.Max
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Max
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Max
-  nameWithType: IntervalTree<TKey, TValue>.Max
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Max
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Max*
-  name: Max
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Max_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Max
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Max
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Max
-  nameWithType: IntervalTree<TKey, TValue>.Max
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Max
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Min
-  name: Min
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Min
-  commentId: P:TMPEffects.Intervaltree.IntervalTree`2.Min
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Min
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Min
-  nameWithType: IntervalTree<TKey, TValue>.Min
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Min
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Min*
-  name: Min
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Min_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Min
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Min
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Min
-  nameWithType: IntervalTree<TKey, TValue>.Min
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Min
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Query(`0)
-  name: Query(TKey)
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Query__0_
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.Query(`0)
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Query(TKey)
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Query(TKey)
-  nameWithType: IntervalTree<TKey, TValue>.Query(TKey)
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Query(TKey)
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Query(`0,`0)
-  name: Query(TKey, TKey)
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Query__0__0_
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.Query(`0,`0)
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Query(TKey, TKey)
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Query(TKey, TKey)
-  nameWithType: IntervalTree<TKey, TValue>.Query(TKey, TKey)
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Query(TKey, TKey)
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Query*
-  name: Query
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Query_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Query
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Query
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Query
-  nameWithType: IntervalTree<TKey, TValue>.Query
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Query
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Remove(System.Collections.Generic.IEnumerable{`1})
-  name: Remove(IEnumerable<TValue>)
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Remove_System_Collections_Generic_IEnumerable__1__
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.Remove(System.Collections.Generic.IEnumerable{`1})
-  name.vb: Remove(IEnumerable(Of TValue))
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Remove(System.Collections.Generic.IEnumerable<TValue>)
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Remove(System.Collections.Generic.IEnumerable(Of TValue))
-  nameWithType: IntervalTree<TKey, TValue>.Remove(IEnumerable<TValue>)
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Remove(IEnumerable(Of TValue))
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Remove(`1)
-  name: Remove(TValue)
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Remove__1_
-  commentId: M:TMPEffects.Intervaltree.IntervalTree`2.Remove(`1)
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Remove(TValue)
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Remove(TValue)
-  nameWithType: IntervalTree<TKey, TValue>.Remove(TValue)
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Remove(TValue)
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Remove*
-  name: Remove
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Remove_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Remove
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Remove
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Remove
-  nameWithType: IntervalTree<TKey, TValue>.Remove
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Remove
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Values
-  name: Values
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Values
-  commentId: P:TMPEffects.Intervaltree.IntervalTree`2.Values
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Values
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Values
-  nameWithType: IntervalTree<TKey, TValue>.Values
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Values
-- uid: TMPEffects.Intervaltree.IntervalTree`2.Values*
-  name: Values
-  href: api/TMPEffects.Intervaltree.IntervalTree-2.html#TMPEffects_Intervaltree_IntervalTree_2_Values_
-  commentId: Overload:TMPEffects.Intervaltree.IntervalTree`2.Values
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.IntervalTree<TKey, TValue>.Values
-  fullName.vb: TMPEffects.Intervaltree.IntervalTree(Of TKey, TValue).Values
-  nameWithType: IntervalTree<TKey, TValue>.Values
-  nameWithType.vb: IntervalTree(Of TKey, TValue).Values
-- uid: TMPEffects.Intervaltree.RangeValuePair`2
-  name: RangeValuePair<TKey, TValue>
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html
-  commentId: T:TMPEffects.Intervaltree.RangeValuePair`2
-  name.vb: RangeValuePair(Of TKey, TValue)
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue)
-  nameWithType: RangeValuePair<TKey, TValue>
-  nameWithType.vb: RangeValuePair(Of TKey, TValue)
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.#ctor(`0,`0,`1)
-  name: RangeValuePair(TKey, TKey, TValue)
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2__ctor__0__0__1_
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.#ctor(`0,`0,`1)
-  name.vb: New(TKey, TKey, TValue)
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.RangeValuePair(TKey, TKey, TValue)
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).New(TKey, TKey, TValue)
-  nameWithType: RangeValuePair<TKey, TValue>.RangeValuePair(TKey, TKey, TValue)
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).New(TKey, TKey, TValue)
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.#ctor*
-  name: RangeValuePair
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2__ctor_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.RangeValuePair
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).New
-  nameWithType: RangeValuePair<TKey, TValue>.RangeValuePair
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).New
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.Equals(System.Object)
-  name: Equals(object)
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_Equals_System_Object_
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.Equals(System.Object)
-  name.vb: Equals(Object)
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.Equals(object)
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).Equals(Object)
-  nameWithType: RangeValuePair<TKey, TValue>.Equals(object)
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).Equals(Object)
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.Equals(TMPEffects.Intervaltree.RangeValuePair{`0,`1})
-  name: Equals(RangeValuePair<TKey, TValue>)
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_Equals_TMPEffects_Intervaltree_RangeValuePair__0__1__
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.Equals(TMPEffects.Intervaltree.RangeValuePair{`0,`1})
-  name.vb: Equals(RangeValuePair(Of TKey, TValue))
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.Equals(TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>)
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).Equals(TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue))
-  nameWithType: RangeValuePair<TKey, TValue>.Equals(RangeValuePair<TKey, TValue>)
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).Equals(RangeValuePair(Of TKey, TValue))
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.Equals*
-  name: Equals
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_Equals_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.Equals
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.Equals
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).Equals
-  nameWithType: RangeValuePair<TKey, TValue>.Equals
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).Equals
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.From
-  name: From
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_From
-  commentId: P:TMPEffects.Intervaltree.RangeValuePair`2.From
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.From
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).From
-  nameWithType: RangeValuePair<TKey, TValue>.From
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).From
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.From*
-  name: From
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_From_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.From
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.From
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).From
-  nameWithType: RangeValuePair<TKey, TValue>.From
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).From
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.GetHashCode
-  name: GetHashCode()
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_GetHashCode
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.GetHashCode
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.GetHashCode()
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).GetHashCode()
-  nameWithType: RangeValuePair<TKey, TValue>.GetHashCode()
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).GetHashCode()
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.GetHashCode*
-  name: GetHashCode
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_GetHashCode_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.GetHashCode
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.GetHashCode
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).GetHashCode
-  nameWithType: RangeValuePair<TKey, TValue>.GetHashCode
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).GetHashCode
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.To
-  name: To
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_To
-  commentId: P:TMPEffects.Intervaltree.RangeValuePair`2.To
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.To
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).To
-  nameWithType: RangeValuePair<TKey, TValue>.To
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).To
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.To*
-  name: To
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_To_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.To
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.To
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).To
-  nameWithType: RangeValuePair<TKey, TValue>.To
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).To
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.ToString
-  name: ToString()
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_ToString
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.ToString
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.ToString()
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).ToString()
-  nameWithType: RangeValuePair<TKey, TValue>.ToString()
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).ToString()
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.ToString*
-  name: ToString
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_ToString_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.ToString
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.ToString
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).ToString
-  nameWithType: RangeValuePair<TKey, TValue>.ToString
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).ToString
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.Value
-  name: Value
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_Value
-  commentId: P:TMPEffects.Intervaltree.RangeValuePair`2.Value
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.Value
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).Value
-  nameWithType: RangeValuePair<TKey, TValue>.Value
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).Value
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.Value*
-  name: Value
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_Value_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.Value
-  isSpec: "True"
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.Value
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).Value
-  nameWithType: RangeValuePair<TKey, TValue>.Value
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).Value
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.op_Equality(TMPEffects.Intervaltree.RangeValuePair{`0,`1},TMPEffects.Intervaltree.RangeValuePair{`0,`1})
-  name: operator ==(RangeValuePair<TKey, TValue>, RangeValuePair<TKey, TValue>)
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_op_Equality_TMPEffects_Intervaltree_RangeValuePair__0__1__TMPEffects_Intervaltree_RangeValuePair__0__1__
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.op_Equality(TMPEffects.Intervaltree.RangeValuePair{`0,`1},TMPEffects.Intervaltree.RangeValuePair{`0,`1})
-  name.vb: =(RangeValuePair(Of TKey, TValue), RangeValuePair(Of TKey, TValue))
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.operator ==(TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>, TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>)
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).=(TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue), TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue))
-  nameWithType: RangeValuePair<TKey, TValue>.operator ==(RangeValuePair<TKey, TValue>, RangeValuePair<TKey, TValue>)
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).=(RangeValuePair(Of TKey, TValue), RangeValuePair(Of TKey, TValue))
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.op_Equality*
-  name: operator ==
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_op_Equality_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.op_Equality
-  isSpec: "True"
-  name.vb: =
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.operator ==
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).=
-  nameWithType: RangeValuePair<TKey, TValue>.operator ==
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).=
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.op_Inequality(TMPEffects.Intervaltree.RangeValuePair{`0,`1},TMPEffects.Intervaltree.RangeValuePair{`0,`1})
-  name: operator !=(RangeValuePair<TKey, TValue>, RangeValuePair<TKey, TValue>)
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_op_Inequality_TMPEffects_Intervaltree_RangeValuePair__0__1__TMPEffects_Intervaltree_RangeValuePair__0__1__
-  commentId: M:TMPEffects.Intervaltree.RangeValuePair`2.op_Inequality(TMPEffects.Intervaltree.RangeValuePair{`0,`1},TMPEffects.Intervaltree.RangeValuePair{`0,`1})
-  name.vb: <>(RangeValuePair(Of TKey, TValue), RangeValuePair(Of TKey, TValue))
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.operator !=(TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>, TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>)
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).<>(TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue), TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue))
-  nameWithType: RangeValuePair<TKey, TValue>.operator !=(RangeValuePair<TKey, TValue>, RangeValuePair<TKey, TValue>)
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).<>(RangeValuePair(Of TKey, TValue), RangeValuePair(Of TKey, TValue))
-- uid: TMPEffects.Intervaltree.RangeValuePair`2.op_Inequality*
-  name: operator !=
-  href: api/TMPEffects.Intervaltree.RangeValuePair-2.html#TMPEffects_Intervaltree_RangeValuePair_2_op_Inequality_
-  commentId: Overload:TMPEffects.Intervaltree.RangeValuePair`2.op_Inequality
-  isSpec: "True"
-  name.vb: <>
-  fullName: TMPEffects.Intervaltree.RangeValuePair<TKey, TValue>.operator !=
-  fullName.vb: TMPEffects.Intervaltree.RangeValuePair(Of TKey, TValue).<>
-  nameWithType: RangeValuePair<TKey, TValue>.operator !=
-  nameWithType.vb: RangeValuePair(Of TKey, TValue).<>
 - uid: TMPEffects.ObjectChanged
   name: TMPEffects.ObjectChanged
   href: api/TMPEffects.ObjectChanged.html
@@ -11583,140 +11058,6 @@ references:
   commentId: N:TMPEffects.TMPSceneAnimations
   fullName: TMPEffects.TMPSceneAnimations
   nameWithType: TMPEffects.TMPSceneAnimations
-- uid: TMPEffects.TMPSceneAnimations.Animations
-  name: TMPEffects.TMPSceneAnimations.Animations
-  href: api/TMPEffects.TMPSceneAnimations.Animations.html
-  commentId: N:TMPEffects.TMPSceneAnimations.Animations
-  fullName: TMPEffects.TMPSceneAnimations.Animations
-  nameWithType: TMPEffects.TMPSceneAnimations.Animations
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation
-  name: FlashlightAnimation
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html
-  commentId: T:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation
-  nameWithType: FlashlightAnimation
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.Animate(TMPEffects.CharacterData.CharData,TMPEffects.TMPAnimations.IAnimationContext)
-  name: Animate(CharData, IAnimationContext)
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_Animate_TMPEffects_CharacterData_CharData_TMPEffects_TMPAnimations_IAnimationContext_
-  commentId: M:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.Animate(TMPEffects.CharacterData.CharData,TMPEffects.TMPAnimations.IAnimationContext)
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.Animate(TMPEffects.CharacterData.CharData, TMPEffects.TMPAnimations.IAnimationContext)
-  nameWithType: FlashlightAnimation.Animate(CharData, IAnimationContext)
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.Animate*
-  name: Animate
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_Animate_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.Animate
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.Animate
-  nameWithType: FlashlightAnimation.Animate
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.GetNewCustomData
-  name: GetNewCustomData()
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_GetNewCustomData
-  commentId: M:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.GetNewCustomData
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.GetNewCustomData()
-  nameWithType: FlashlightAnimation.GetNewCustomData()
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.GetNewCustomData*
-  name: GetNewCustomData
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_GetNewCustomData_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.GetNewCustomData
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.GetNewCustomData
-  nameWithType: FlashlightAnimation.GetNewCustomData
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters(System.Object,System.Collections.Generic.IDictionary{System.String,System.String})
-  name: SetParameters(object, IDictionary<string, string>)
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_SetParameters_System_Object_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters(System.Object,System.Collections.Generic.IDictionary{System.String,System.String})
-  name.vb: SetParameters(Object, IDictionary(Of String, String))
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters(object, System.Collections.Generic.IDictionary<string, string>)
-  fullName.vb: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters(Object, System.Collections.Generic.IDictionary(Of String, String))
-  nameWithType: FlashlightAnimation.SetParameters(object, IDictionary<string, string>)
-  nameWithType.vb: FlashlightAnimation.SetParameters(Object, IDictionary(Of String, String))
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters*
-  name: SetParameters
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_SetParameters_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.SetParameters
-  nameWithType: FlashlightAnimation.SetParameters
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters(System.Collections.Generic.IDictionary{System.String,System.String})
-  name: ValidateParameters(IDictionary<string, string>)
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_ValidateParameters_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters(System.Collections.Generic.IDictionary{System.String,System.String})
-  name.vb: ValidateParameters(IDictionary(Of String, String))
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters(System.Collections.Generic.IDictionary<string, string>)
-  fullName.vb: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters(System.Collections.Generic.IDictionary(Of String, String))
-  nameWithType: FlashlightAnimation.ValidateParameters(IDictionary<string, string>)
-  nameWithType.vb: FlashlightAnimation.ValidateParameters(IDictionary(Of String, String))
-- uid: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters*
-  name: ValidateParameters
-  href: api/TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.html#TMPEffects_TMPSceneAnimations_Animations_FlashlightAnimation_ValidateParameters_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Animations.FlashlightAnimation.ValidateParameters
-  nameWithType: FlashlightAnimation.ValidateParameters
-- uid: TMPEffects.TMPSceneAnimations.Draggable
-  name: Draggable
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html
-  commentId: T:TMPEffects.TMPSceneAnimations.Draggable
-  fullName: TMPEffects.TMPSceneAnimations.Draggable
-  nameWithType: Draggable
-- uid: TMPEffects.TMPSceneAnimations.Draggable.Animate(TMPEffects.CharacterData.CharData,TMPEffects.TMPAnimations.IAnimationContext)
-  name: Animate(CharData, IAnimationContext)
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_Animate_TMPEffects_CharacterData_CharData_TMPEffects_TMPAnimations_IAnimationContext_
-  commentId: M:TMPEffects.TMPSceneAnimations.Draggable.Animate(TMPEffects.CharacterData.CharData,TMPEffects.TMPAnimations.IAnimationContext)
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.Animate(TMPEffects.CharacterData.CharData, TMPEffects.TMPAnimations.IAnimationContext)
-  nameWithType: Draggable.Animate(CharData, IAnimationContext)
-- uid: TMPEffects.TMPSceneAnimations.Draggable.Animate*
-  name: Animate
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_Animate_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Draggable.Animate
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.Animate
-  nameWithType: Draggable.Animate
-- uid: TMPEffects.TMPSceneAnimations.Draggable.GetNewCustomData
-  name: GetNewCustomData()
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_GetNewCustomData
-  commentId: M:TMPEffects.TMPSceneAnimations.Draggable.GetNewCustomData
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.GetNewCustomData()
-  nameWithType: Draggable.GetNewCustomData()
-- uid: TMPEffects.TMPSceneAnimations.Draggable.GetNewCustomData*
-  name: GetNewCustomData
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_GetNewCustomData_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Draggable.GetNewCustomData
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.GetNewCustomData
-  nameWithType: Draggable.GetNewCustomData
-- uid: TMPEffects.TMPSceneAnimations.Draggable.SetParameters(System.Object,System.Collections.Generic.IDictionary{System.String,System.String})
-  name: SetParameters(object, IDictionary<string, string>)
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_SetParameters_System_Object_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:TMPEffects.TMPSceneAnimations.Draggable.SetParameters(System.Object,System.Collections.Generic.IDictionary{System.String,System.String})
-  name.vb: SetParameters(Object, IDictionary(Of String, String))
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.SetParameters(object, System.Collections.Generic.IDictionary<string, string>)
-  fullName.vb: TMPEffects.TMPSceneAnimations.Draggable.SetParameters(Object, System.Collections.Generic.IDictionary(Of String, String))
-  nameWithType: Draggable.SetParameters(object, IDictionary<string, string>)
-  nameWithType.vb: Draggable.SetParameters(Object, IDictionary(Of String, String))
-- uid: TMPEffects.TMPSceneAnimations.Draggable.SetParameters*
-  name: SetParameters
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_SetParameters_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Draggable.SetParameters
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.SetParameters
-  nameWithType: Draggable.SetParameters
-- uid: TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters(System.Collections.Generic.IDictionary{System.String,System.String})
-  name: ValidateParameters(IDictionary<string, string>)
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_ValidateParameters_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters(System.Collections.Generic.IDictionary{System.String,System.String})
-  name.vb: ValidateParameters(IDictionary(Of String, String))
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters(System.Collections.Generic.IDictionary<string, string>)
-  fullName.vb: TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters(System.Collections.Generic.IDictionary(Of String, String))
-  nameWithType: Draggable.ValidateParameters(IDictionary<string, string>)
-  nameWithType.vb: Draggable.ValidateParameters(IDictionary(Of String, String))
-- uid: TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters*
-  name: ValidateParameters
-  href: api/TMPEffects.TMPSceneAnimations.Draggable.html#TMPEffects_TMPSceneAnimations_Draggable_ValidateParameters_
-  commentId: Overload:TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters
-  isSpec: "True"
-  fullName: TMPEffects.TMPSceneAnimations.Draggable.ValidateParameters
-  nameWithType: Draggable.ValidateParameters
 - uid: TMPEffects.TMPSceneAnimations.TMPSceneAnimation
   name: TMPSceneAnimation
   href: api/TMPEffects.TMPSceneAnimations.TMPSceneAnimation.html
@@ -13174,15 +12515,15 @@ references:
   commentId: T:TMPEffects.Tags.ITMPTagValidator
   fullName: TMPEffects.Tags.ITMPTagValidator
   nameWithType: ITMPTagValidator
-- uid: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name: ValidateOpenTag(TagInfo, out TMPEffectTag)
-  href: api/TMPEffects.Tags.ITMPTagValidator.html#TMPEffects_Tags_ITMPTagValidator_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__
-  commentId: M:TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@)
-  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag)
-  fullName: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag)
-  fullName.vb: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag)
-  nameWithType: ITMPTagValidator.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag)
-  nameWithType.vb: ITMPTagValidator.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag)
+- uid: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name: ValidateOpenTag(TagInfo, out TMPEffectTag, out int)
+  href: api/TMPEffects.Tags.ITMPTagValidator.html#TMPEffects_Tags_ITMPTagValidator_ValidateOpenTag_TMPEffects_TextProcessing_ParsingUtility_TagInfo_TMPEffects_Tags_TMPEffectTag__System_Int32__
+  commentId: M:TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo,TMPEffects.Tags.TMPEffectTag@,System.Int32@)
+  name.vb: ValidateOpenTag(TagInfo, TMPEffectTag, Integer)
+  fullName: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, out TMPEffects.Tags.TMPEffectTag, out int)
+  fullName.vb: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag(TMPEffects.TextProcessing.ParsingUtility.TagInfo, TMPEffects.Tags.TMPEffectTag, Integer)
+  nameWithType: ITMPTagValidator.ValidateOpenTag(ParsingUtility.TagInfo, out TMPEffectTag, out int)
+  nameWithType.vb: ITMPTagValidator.ValidateOpenTag(ParsingUtility.TagInfo, TMPEffectTag, Integer)
 - uid: TMPEffects.Tags.ITMPTagValidator.ValidateOpenTag*
   name: ValidateOpenTag
   href: api/TMPEffects.Tags.ITMPTagValidator.html#TMPEffects_Tags_ITMPTagValidator_ValidateOpenTag_
