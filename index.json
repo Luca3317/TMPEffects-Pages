@@ -917,7 +917,7 @@
   "index.html": {
     "href": "index.html",
     "title": "TMPEffects documentation | TMPEffects",
-    "keywords": "TMPEffects documentation This is the full documentation of the TMPEffects package. Click here to begin reading. Below is a copy of the readme of the github repository."
+    "keywords": "TMPEffects documentation This is the full documentation of the TMPEffects package. Click here to begin reading. Below is a copy of the readme of the github repository. TMPEffects If you want to, please support me / TMPEffects on Ko-fi! TMPEffects allows you to easily apply all kinds of effects to your TextMeshPro tags using (custom) tags Animate text blocks continuously Show and hide text over time Animate the show / hide sequence Raise commands at any given index Raise events at any given index API to create your own tags (animations, commands) For a full preview of built-in animations, show / hide animations, and commands, see the respective documentation. Dependencies and compatibility TMPEffects is compatible with Unity 2021.3 and up Only dependency: Unity's TextMeshPro package (automatically included in Unity 2018.3 and up) Installation TMPEffects is available on the OpenUPM registry. Alternatively, you can install TMPEffects through the Unity Package Manager, using the git url: https://github.com/Luca3317/TMPEffects.git If you don't know how to install packages using git urls, see the docs. Documentation The full documentation can be found here"
   },
   "plugins/autoparameters.html": {
     "href": "plugins/autoparameters.html",
