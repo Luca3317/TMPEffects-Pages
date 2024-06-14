@@ -2881,6 +2881,19 @@ references:
   commentId: T:TMPEffects.Components.Mediator.TMPMediator
   fullName: TMPEffects.Components.Mediator.TMPMediator
   nameWithType: TMPMediator
+- uid: TMPEffects.Components.Mediator.TMPMediator.ApplyMesh(TMPEffects.CharacterData.CharData)
+  name: ApplyMesh(CharData)
+  href: api/TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_ApplyMesh_TMPEffects_CharacterData_CharData_
+  commentId: M:TMPEffects.Components.Mediator.TMPMediator.ApplyMesh(TMPEffects.CharacterData.CharData)
+  fullName: TMPEffects.Components.Mediator.TMPMediator.ApplyMesh(TMPEffects.CharacterData.CharData)
+  nameWithType: TMPMediator.ApplyMesh(CharData)
+- uid: TMPEffects.Components.Mediator.TMPMediator.ApplyMesh*
+  name: ApplyMesh
+  href: api/TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_ApplyMesh_
+  commentId: Overload:TMPEffects.Components.Mediator.TMPMediator.ApplyMesh
+  isSpec: "True"
+  fullName: TMPEffects.Components.Mediator.TMPMediator.ApplyMesh
+  nameWithType: TMPMediator.ApplyMesh
 - uid: TMPEffects.Components.Mediator.TMPMediator.CharData
   name: CharData
   href: api/TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_CharData
@@ -3985,6 +3998,19 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.Tags
   nameWithType: TMPWriter.Tags
+- uid: TMPEffects.Components.TMPWriter.UseScaledTime
+  name: UseScaledTime
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_UseScaledTime
+  commentId: P:TMPEffects.Components.TMPWriter.UseScaledTime
+  fullName: TMPEffects.Components.TMPWriter.UseScaledTime
+  nameWithType: TMPWriter.UseScaledTime
+- uid: TMPEffects.Components.TMPWriter.UseScaledTime*
+  name: UseScaledTime
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_UseScaledTime_
+  commentId: Overload:TMPEffects.Components.TMPWriter.UseScaledTime
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.UseScaledTime
+  nameWithType: TMPWriter.UseScaledTime
 - uid: TMPEffects.Components.TMPWriter.Wait(System.Single)
   name: Wait(float)
   href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_Wait_System_Single_
@@ -7793,6 +7819,24 @@ references:
   commentId: F:TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.Word
   fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.Word
   nameWithType: AnimationUtility.WaveOffsetType.Word
+- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldXPos
+  name: WorldXPos
+  href: api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html#TMPEffects_TMPAnimations_AnimationUtility_WaveOffsetType_WorldXPos
+  commentId: F:TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldXPos
+  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldXPos
+  nameWithType: AnimationUtility.WaveOffsetType.WorldXPos
+- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldYPos
+  name: WorldYPos
+  href: api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html#TMPEffects_TMPAnimations_AnimationUtility_WaveOffsetType_WorldYPos
+  commentId: F:TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldYPos
+  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldYPos
+  nameWithType: AnimationUtility.WaveOffsetType.WorldYPos
+- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldZPos
+  name: WorldZPos
+  href: api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html#TMPEffects_TMPAnimations_AnimationUtility_WaveOffsetType_WorldZPos
+  commentId: F:TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldZPos
+  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.WorldZPos
+  nameWithType: AnimationUtility.WaveOffsetType.WorldZPos
 - uid: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.XPos
   name: XPos
   href: api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html#TMPEffects_TMPAnimations_AnimationUtility_WaveOffsetType_XPos
@@ -12800,6 +12844,19 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Tags.TMPEffectTagIndices.GetHashCode
   nameWithType: TMPEffectTagIndices.GetHashCode
+- uid: TMPEffects.Tags.TMPEffectTagIndices.IsEmpty
+  name: IsEmpty
+  href: api/TMPEffects.Tags.TMPEffectTagIndices.html#TMPEffects_Tags_TMPEffectTagIndices_IsEmpty
+  commentId: P:TMPEffects.Tags.TMPEffectTagIndices.IsEmpty
+  fullName: TMPEffects.Tags.TMPEffectTagIndices.IsEmpty
+  nameWithType: TMPEffectTagIndices.IsEmpty
+- uid: TMPEffects.Tags.TMPEffectTagIndices.IsEmpty*
+  name: IsEmpty
+  href: api/TMPEffects.Tags.TMPEffectTagIndices.html#TMPEffects_Tags_TMPEffectTagIndices_IsEmpty_
+  commentId: Overload:TMPEffects.Tags.TMPEffectTagIndices.IsEmpty
+  isSpec: "True"
+  fullName: TMPEffects.Tags.TMPEffectTagIndices.IsEmpty
+  nameWithType: TMPEffectTagIndices.IsEmpty
 - uid: TMPEffects.Tags.TMPEffectTagIndices.IsOpen
   name: IsOpen
   href: api/TMPEffects.Tags.TMPEffectTagIndices.html#TMPEffects_Tags_TMPEffectTagIndices_IsOpen
