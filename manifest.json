@@ -12,6 +12,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.CharData.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.CharData.Info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.CharData.yml",
       "output": {
         ".html": {
@@ -26,6 +36,16 @@
       "output": {
         ".html": {
           "relative_path": "api/TMPEffects.CharacterData.CharDataState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.CharacterData.ICharDataState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.CharacterData.ICharDataState.html"
         }
       },
       "version": ""
@@ -256,6 +276,16 @@
       "output": {
         ".html": {
           "relative_path": "api/TMPEffects.Components.TMPWriter.DelayType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Assets/TMPEffects/Documentation~/api/TMPEffects.Components.TMPWriter.Delays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPEffects.Components.TMPWriter.Delays.html"
         }
       },
       "version": ""

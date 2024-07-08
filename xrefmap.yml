@@ -19,24 +19,24 @@ references:
   commentId: T:TMPEffects.CharacterData.CharData
   fullName: TMPEffects.CharacterData.CharData
   nameWithType: CharData
-- uid: TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo)
-  name: CharData(int, TMP_CharacterInfo)
-  href: api/TMPEffects.CharacterData.CharData.html#TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_
-  commentId: M:TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo)
-  name.vb: New(Integer, TMP_CharacterInfo)
-  fullName: TMPEffects.CharacterData.CharData.CharData(int, TMPro.TMP_CharacterInfo)
-  fullName.vb: TMPEffects.CharacterData.CharData.New(Integer, TMPro.TMP_CharacterInfo)
-  nameWithType: CharData.CharData(int, TMP_CharacterInfo)
-  nameWithType.vb: CharData.New(Integer, TMP_CharacterInfo)
-- uid: TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Nullable{TMPro.TMP_WordInfo})
-  name: CharData(int, TMP_CharacterInfo, TMP_WordInfo?)
-  href: api/TMPEffects.CharacterData.CharData.html#TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Nullable_TMPro_TMP_WordInfo__
-  commentId: M:TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Nullable{TMPro.TMP_WordInfo})
-  name.vb: New(Integer, TMP_CharacterInfo, TMP_WordInfo?)
-  fullName: TMPEffects.CharacterData.CharData.CharData(int, TMPro.TMP_CharacterInfo, TMPro.TMP_WordInfo?)
-  fullName.vb: TMPEffects.CharacterData.CharData.New(Integer, TMPro.TMP_CharacterInfo, TMPro.TMP_WordInfo?)
-  nameWithType: CharData.CharData(int, TMP_CharacterInfo, TMP_WordInfo?)
-  nameWithType.vb: CharData.New(Integer, TMP_CharacterInfo, TMP_WordInfo?)
+- uid: TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32)
+  name: CharData(int, TMP_CharacterInfo, int)
+  href: api/TMPEffects.CharacterData.CharData.html#TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Int32_
+  commentId: M:TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32)
+  name.vb: New(Integer, TMP_CharacterInfo, Integer)
+  fullName: TMPEffects.CharacterData.CharData.CharData(int, TMPro.TMP_CharacterInfo, int)
+  fullName.vb: TMPEffects.CharacterData.CharData.New(Integer, TMPro.TMP_CharacterInfo, Integer)
+  nameWithType: CharData.CharData(int, TMP_CharacterInfo, int)
+  nameWithType.vb: CharData.New(Integer, TMP_CharacterInfo, Integer)
+- uid: TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32,System.Nullable{TMPro.TMP_WordInfo})
+  name: CharData(int, TMP_CharacterInfo, int, TMP_WordInfo?)
+  href: api/TMPEffects.CharacterData.CharData.html#TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Int32_System_Nullable_TMPro_TMP_WordInfo__
+  commentId: M:TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32,System.Nullable{TMPro.TMP_WordInfo})
+  name.vb: New(Integer, TMP_CharacterInfo, Integer, TMP_WordInfo?)
+  fullName: TMPEffects.CharacterData.CharData.CharData(int, TMPro.TMP_CharacterInfo, int, TMPro.TMP_WordInfo?)
+  fullName.vb: TMPEffects.CharacterData.CharData.New(Integer, TMPro.TMP_CharacterInfo, Integer, TMPro.TMP_WordInfo?)
+  nameWithType: CharData.CharData(int, TMP_CharacterInfo, int, TMP_WordInfo?)
+  nameWithType.vb: CharData.New(Integer, TMP_CharacterInfo, Integer, TMP_WordInfo?)
 - uid: TMPEffects.CharacterData.CharData.#ctor*
   name: CharData
   href: api/TMPEffects.CharacterData.CharData.html#TMPEffects_CharacterData_CharData__ctor_
@@ -89,6 +89,151 @@ references:
   isSpec: "True"
   fullName: TMPEffects.CharacterData.CharData.AddVertexDelta
   nameWithType: CharData.AddVertexDelta
+- uid: TMPEffects.CharacterData.CharData.Info
+  name: CharData.Info
+  href: api/TMPEffects.CharacterData.CharData.Info.html
+  commentId: T:TMPEffects.CharacterData.CharData.Info
+  fullName: TMPEffects.CharacterData.CharData.Info
+  nameWithType: CharData.Info
+- uid: TMPEffects.CharacterData.CharData.Info.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32,TMPro.TMP_WordInfo)
+  name: Info(int, TMP_CharacterInfo, int, TMP_WordInfo)
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Int32_TMPro_TMP_WordInfo_
+  commentId: M:TMPEffects.CharacterData.CharData.Info.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32,TMPro.TMP_WordInfo)
+  name.vb: New(Integer, TMP_CharacterInfo, Integer, TMP_WordInfo)
+  fullName: TMPEffects.CharacterData.CharData.Info.Info(int, TMPro.TMP_CharacterInfo, int, TMPro.TMP_WordInfo)
+  fullName.vb: TMPEffects.CharacterData.CharData.Info.New(Integer, TMPro.TMP_CharacterInfo, Integer, TMPro.TMP_WordInfo)
+  nameWithType: CharData.Info.Info(int, TMP_CharacterInfo, int, TMP_WordInfo)
+  nameWithType.vb: CharData.Info.New(Integer, TMP_CharacterInfo, Integer, TMP_WordInfo)
+- uid: TMPEffects.CharacterData.CharData.Info.#ctor*
+  name: Info
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info__ctor_
+  commentId: Overload:TMPEffects.CharacterData.CharData.Info.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TMPEffects.CharacterData.CharData.Info.Info
+  fullName.vb: TMPEffects.CharacterData.CharData.Info.New
+  nameWithType: CharData.Info.Info
+  nameWithType.vb: CharData.Info.New
+- uid: TMPEffects.CharacterData.CharData.Info.ascender
+  name: ascender
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_ascender
+  commentId: F:TMPEffects.CharacterData.CharData.Info.ascender
+  fullName: TMPEffects.CharacterData.CharData.Info.ascender
+  nameWithType: CharData.Info.ascender
+- uid: TMPEffects.CharacterData.CharData.Info.baseLine
+  name: baseLine
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_baseLine
+  commentId: F:TMPEffects.CharacterData.CharData.Info.baseLine
+  fullName: TMPEffects.CharacterData.CharData.Info.baseLine
+  nameWithType: CharData.Info.baseLine
+- uid: TMPEffects.CharacterData.CharData.Info.character
+  name: character
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_character
+  commentId: F:TMPEffects.CharacterData.CharData.Info.character
+  fullName: TMPEffects.CharacterData.CharData.Info.character
+  nameWithType: CharData.Info.character
+- uid: TMPEffects.CharacterData.CharData.Info.color
+  name: color
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_color
+  commentId: F:TMPEffects.CharacterData.CharData.Info.color
+  fullName: TMPEffects.CharacterData.CharData.Info.color
+  nameWithType: CharData.Info.color
+- uid: TMPEffects.CharacterData.CharData.Info.descender
+  name: descender
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_descender
+  commentId: F:TMPEffects.CharacterData.CharData.Info.descender
+  fullName: TMPEffects.CharacterData.CharData.Info.descender
+  nameWithType: CharData.Info.descender
+- uid: TMPEffects.CharacterData.CharData.Info.elementType
+  name: elementType
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_elementType
+  commentId: F:TMPEffects.CharacterData.CharData.Info.elementType
+  fullName: TMPEffects.CharacterData.CharData.Info.elementType
+  nameWithType: CharData.Info.elementType
+- uid: TMPEffects.CharacterData.CharData.Info.fontAsset
+  name: fontAsset
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_fontAsset
+  commentId: F:TMPEffects.CharacterData.CharData.Info.fontAsset
+  fullName: TMPEffects.CharacterData.CharData.Info.fontAsset
+  nameWithType: CharData.Info.fontAsset
+- uid: TMPEffects.CharacterData.CharData.Info.index
+  name: index
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_index
+  commentId: F:TMPEffects.CharacterData.CharData.Info.index
+  fullName: TMPEffects.CharacterData.CharData.Info.index
+  nameWithType: CharData.Info.index
+- uid: TMPEffects.CharacterData.CharData.Info.isVisible
+  name: isVisible
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_isVisible
+  commentId: F:TMPEffects.CharacterData.CharData.Info.isVisible
+  fullName: TMPEffects.CharacterData.CharData.Info.isVisible
+  nameWithType: CharData.Info.isVisible
+- uid: TMPEffects.CharacterData.CharData.Info.lineNumber
+  name: lineNumber
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_lineNumber
+  commentId: F:TMPEffects.CharacterData.CharData.Info.lineNumber
+  fullName: TMPEffects.CharacterData.CharData.Info.lineNumber
+  nameWithType: CharData.Info.lineNumber
+- uid: TMPEffects.CharacterData.CharData.Info.origin
+  name: origin
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_origin
+  commentId: F:TMPEffects.CharacterData.CharData.Info.origin
+  fullName: TMPEffects.CharacterData.CharData.Info.origin
+  nameWithType: CharData.Info.origin
+- uid: TMPEffects.CharacterData.CharData.Info.pageNumber
+  name: pageNumber
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_pageNumber
+  commentId: F:TMPEffects.CharacterData.CharData.Info.pageNumber
+  fullName: TMPEffects.CharacterData.CharData.Info.pageNumber
+  nameWithType: CharData.Info.pageNumber
+- uid: TMPEffects.CharacterData.CharData.Info.pointSize
+  name: pointSize
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_pointSize
+  commentId: F:TMPEffects.CharacterData.CharData.Info.pointSize
+  fullName: TMPEffects.CharacterData.CharData.Info.pointSize
+  nameWithType: CharData.Info.pointSize
+- uid: TMPEffects.CharacterData.CharData.Info.referenceScale
+  name: referenceScale
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_referenceScale
+  commentId: F:TMPEffects.CharacterData.CharData.Info.referenceScale
+  fullName: TMPEffects.CharacterData.CharData.Info.referenceScale
+  nameWithType: CharData.Info.referenceScale
+- uid: TMPEffects.CharacterData.CharData.Info.spriteAsset
+  name: spriteAsset
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_spriteAsset
+  commentId: F:TMPEffects.CharacterData.CharData.Info.spriteAsset
+  fullName: TMPEffects.CharacterData.CharData.Info.spriteAsset
+  nameWithType: CharData.Info.spriteAsset
+- uid: TMPEffects.CharacterData.CharData.Info.wordFirstIndex
+  name: wordFirstIndex
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_wordFirstIndex
+  commentId: F:TMPEffects.CharacterData.CharData.Info.wordFirstIndex
+  fullName: TMPEffects.CharacterData.CharData.Info.wordFirstIndex
+  nameWithType: CharData.Info.wordFirstIndex
+- uid: TMPEffects.CharacterData.CharData.Info.wordLastIndex
+  name: wordLastIndex
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_wordLastIndex
+  commentId: F:TMPEffects.CharacterData.CharData.Info.wordLastIndex
+  fullName: TMPEffects.CharacterData.CharData.Info.wordLastIndex
+  nameWithType: CharData.Info.wordLastIndex
+- uid: TMPEffects.CharacterData.CharData.Info.wordLen
+  name: wordLen
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_wordLen
+  commentId: F:TMPEffects.CharacterData.CharData.Info.wordLen
+  fullName: TMPEffects.CharacterData.CharData.Info.wordLen
+  nameWithType: CharData.Info.wordLen
+- uid: TMPEffects.CharacterData.CharData.Info.wordNumber
+  name: wordNumber
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_wordNumber
+  commentId: F:TMPEffects.CharacterData.CharData.Info.wordNumber
+  fullName: TMPEffects.CharacterData.CharData.Info.wordNumber
+  nameWithType: CharData.Info.wordNumber
+- uid: TMPEffects.CharacterData.CharData.Info.xAdvance
+  name: xAdvance
+  href: api/TMPEffects.CharacterData.CharData.Info.html#TMPEffects_CharacterData_CharData_Info_xAdvance
+  commentId: F:TMPEffects.CharacterData.CharData.Info.xAdvance
+  fullName: TMPEffects.CharacterData.CharData.Info.xAdvance
+  nameWithType: CharData.Info.xAdvance
 - uid: TMPEffects.CharacterData.CharData.InitialPosition
   name: InitialPosition
   href: api/TMPEffects.CharacterData.CharData.html#TMPEffects_CharacterData_CharData_InitialPosition
@@ -468,85 +613,183 @@ references:
 - uid: TMPEffects.CharacterData.CharDataState.BL
   name: BL
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL
-  commentId: F:TMPEffects.CharacterData.CharDataState.BL
+  commentId: P:TMPEffects.CharacterData.CharDataState.BL
+  fullName: TMPEffects.CharacterData.CharDataState.BL
+  nameWithType: CharDataState.BL
+- uid: TMPEffects.CharacterData.CharDataState.BL*
+  name: BL
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BL
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BL
   nameWithType: CharDataState.BL
 - uid: TMPEffects.CharacterData.CharDataState.BLMax
   name: BLMax
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BLMax
-  commentId: F:TMPEffects.CharacterData.CharDataState.BLMax
+  commentId: P:TMPEffects.CharacterData.CharDataState.BLMax
+  fullName: TMPEffects.CharacterData.CharDataState.BLMax
+  nameWithType: CharDataState.BLMax
+- uid: TMPEffects.CharacterData.CharDataState.BLMax*
+  name: BLMax
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BLMax_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BLMax
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BLMax
   nameWithType: CharDataState.BLMax
 - uid: TMPEffects.CharacterData.CharDataState.BLMin
   name: BLMin
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BLMin
-  commentId: F:TMPEffects.CharacterData.CharDataState.BLMin
+  commentId: P:TMPEffects.CharacterData.CharDataState.BLMin
+  fullName: TMPEffects.CharacterData.CharDataState.BLMin
+  nameWithType: CharDataState.BLMin
+- uid: TMPEffects.CharacterData.CharDataState.BLMin*
+  name: BLMin
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BLMin_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BLMin
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BLMin
   nameWithType: CharDataState.BLMin
 - uid: TMPEffects.CharacterData.CharDataState.BL_Color
   name: BL_Color
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_Color
-  commentId: F:TMPEffects.CharacterData.CharDataState.BL_Color
+  commentId: P:TMPEffects.CharacterData.CharDataState.BL_Color
+  fullName: TMPEffects.CharacterData.CharDataState.BL_Color
+  nameWithType: CharDataState.BL_Color
+- uid: TMPEffects.CharacterData.CharDataState.BL_Color*
+  name: BL_Color
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_Color_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BL_Color
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BL_Color
   nameWithType: CharDataState.BL_Color
 - uid: TMPEffects.CharacterData.CharDataState.BL_Result
   name: BL_Result
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_Result
-  commentId: F:TMPEffects.CharacterData.CharDataState.BL_Result
+  commentId: P:TMPEffects.CharacterData.CharDataState.BL_Result
+  fullName: TMPEffects.CharacterData.CharDataState.BL_Result
+  nameWithType: CharDataState.BL_Result
+- uid: TMPEffects.CharacterData.CharDataState.BL_Result*
+  name: BL_Result
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_Result_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BL_Result
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BL_Result
   nameWithType: CharDataState.BL_Result
 - uid: TMPEffects.CharacterData.CharDataState.BL_UV
   name: BL_UV
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_UV
-  commentId: F:TMPEffects.CharacterData.CharDataState.BL_UV
+  commentId: P:TMPEffects.CharacterData.CharDataState.BL_UV
+  fullName: TMPEffects.CharacterData.CharDataState.BL_UV
+  nameWithType: CharDataState.BL_UV
+- uid: TMPEffects.CharacterData.CharDataState.BL_UV*
+  name: BL_UV
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_UV_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BL_UV
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BL_UV
   nameWithType: CharDataState.BL_UV
 - uid: TMPEffects.CharacterData.CharDataState.BL_UV2
   name: BL_UV2
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_UV2
-  commentId: F:TMPEffects.CharacterData.CharDataState.BL_UV2
+  commentId: P:TMPEffects.CharacterData.CharDataState.BL_UV2
+  fullName: TMPEffects.CharacterData.CharDataState.BL_UV2
+  nameWithType: CharDataState.BL_UV2
+- uid: TMPEffects.CharacterData.CharDataState.BL_UV2*
+  name: BL_UV2
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BL_UV2_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BL_UV2
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BL_UV2
   nameWithType: CharDataState.BL_UV2
 - uid: TMPEffects.CharacterData.CharDataState.BR
   name: BR
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR
-  commentId: F:TMPEffects.CharacterData.CharDataState.BR
+  commentId: P:TMPEffects.CharacterData.CharDataState.BR
+  fullName: TMPEffects.CharacterData.CharDataState.BR
+  nameWithType: CharDataState.BR
+- uid: TMPEffects.CharacterData.CharDataState.BR*
+  name: BR
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BR
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BR
   nameWithType: CharDataState.BR
 - uid: TMPEffects.CharacterData.CharDataState.BRMax
   name: BRMax
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BRMax
-  commentId: F:TMPEffects.CharacterData.CharDataState.BRMax
+  commentId: P:TMPEffects.CharacterData.CharDataState.BRMax
+  fullName: TMPEffects.CharacterData.CharDataState.BRMax
+  nameWithType: CharDataState.BRMax
+- uid: TMPEffects.CharacterData.CharDataState.BRMax*
+  name: BRMax
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BRMax_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BRMax
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BRMax
   nameWithType: CharDataState.BRMax
 - uid: TMPEffects.CharacterData.CharDataState.BRMin
   name: BRMin
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BRMin
-  commentId: F:TMPEffects.CharacterData.CharDataState.BRMin
+  commentId: P:TMPEffects.CharacterData.CharDataState.BRMin
+  fullName: TMPEffects.CharacterData.CharDataState.BRMin
+  nameWithType: CharDataState.BRMin
+- uid: TMPEffects.CharacterData.CharDataState.BRMin*
+  name: BRMin
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BRMin_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BRMin
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BRMin
   nameWithType: CharDataState.BRMin
 - uid: TMPEffects.CharacterData.CharDataState.BR_Color
   name: BR_Color
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_Color
-  commentId: F:TMPEffects.CharacterData.CharDataState.BR_Color
+  commentId: P:TMPEffects.CharacterData.CharDataState.BR_Color
+  fullName: TMPEffects.CharacterData.CharDataState.BR_Color
+  nameWithType: CharDataState.BR_Color
+- uid: TMPEffects.CharacterData.CharDataState.BR_Color*
+  name: BR_Color
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_Color_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BR_Color
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BR_Color
   nameWithType: CharDataState.BR_Color
 - uid: TMPEffects.CharacterData.CharDataState.BR_Result
   name: BR_Result
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_Result
-  commentId: F:TMPEffects.CharacterData.CharDataState.BR_Result
+  commentId: P:TMPEffects.CharacterData.CharDataState.BR_Result
+  fullName: TMPEffects.CharacterData.CharDataState.BR_Result
+  nameWithType: CharDataState.BR_Result
+- uid: TMPEffects.CharacterData.CharDataState.BR_Result*
+  name: BR_Result
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_Result_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BR_Result
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BR_Result
   nameWithType: CharDataState.BR_Result
 - uid: TMPEffects.CharacterData.CharDataState.BR_UV
   name: BR_UV
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_UV
-  commentId: F:TMPEffects.CharacterData.CharDataState.BR_UV
+  commentId: P:TMPEffects.CharacterData.CharDataState.BR_UV
+  fullName: TMPEffects.CharacterData.CharDataState.BR_UV
+  nameWithType: CharDataState.BR_UV
+- uid: TMPEffects.CharacterData.CharDataState.BR_UV*
+  name: BR_UV
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_UV_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BR_UV
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BR_UV
   nameWithType: CharDataState.BR_UV
 - uid: TMPEffects.CharacterData.CharDataState.BR_UV2
   name: BR_UV2
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_UV2
-  commentId: F:TMPEffects.CharacterData.CharDataState.BR_UV2
+  commentId: P:TMPEffects.CharacterData.CharDataState.BR_UV2
+  fullName: TMPEffects.CharacterData.CharDataState.BR_UV2
+  nameWithType: CharDataState.BR_UV2
+- uid: TMPEffects.CharacterData.CharDataState.BR_UV2*
+  name: BR_UV2
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_BR_UV2_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.BR_UV2
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.BR_UV2
   nameWithType: CharDataState.BR_UV2
 - uid: TMPEffects.CharacterData.CharDataState.CalculateVertexPositions
@@ -575,88 +818,199 @@ references:
   isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.Reset
   nameWithType: CharDataState.Reset
+- uid: TMPEffects.CharacterData.CharDataState.Rotations
+  name: Rotations
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_Rotations
+  commentId: P:TMPEffects.CharacterData.CharDataState.Rotations
+  fullName: TMPEffects.CharacterData.CharDataState.Rotations
+  nameWithType: CharDataState.Rotations
+- uid: TMPEffects.CharacterData.CharDataState.Rotations*
+  name: Rotations
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_Rotations_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.Rotations
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.CharDataState.Rotations
+  nameWithType: CharDataState.Rotations
 - uid: TMPEffects.CharacterData.CharDataState.TL
   name: TL
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL
-  commentId: F:TMPEffects.CharacterData.CharDataState.TL
+  commentId: P:TMPEffects.CharacterData.CharDataState.TL
+  fullName: TMPEffects.CharacterData.CharDataState.TL
+  nameWithType: CharDataState.TL
+- uid: TMPEffects.CharacterData.CharDataState.TL*
+  name: TL
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TL
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TL
   nameWithType: CharDataState.TL
 - uid: TMPEffects.CharacterData.CharDataState.TLMax
   name: TLMax
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TLMax
-  commentId: F:TMPEffects.CharacterData.CharDataState.TLMax
+  commentId: P:TMPEffects.CharacterData.CharDataState.TLMax
+  fullName: TMPEffects.CharacterData.CharDataState.TLMax
+  nameWithType: CharDataState.TLMax
+- uid: TMPEffects.CharacterData.CharDataState.TLMax*
+  name: TLMax
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TLMax_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TLMax
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TLMax
   nameWithType: CharDataState.TLMax
 - uid: TMPEffects.CharacterData.CharDataState.TLMin
   name: TLMin
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TLMin
-  commentId: F:TMPEffects.CharacterData.CharDataState.TLMin
+  commentId: P:TMPEffects.CharacterData.CharDataState.TLMin
+  fullName: TMPEffects.CharacterData.CharDataState.TLMin
+  nameWithType: CharDataState.TLMin
+- uid: TMPEffects.CharacterData.CharDataState.TLMin*
+  name: TLMin
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TLMin_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TLMin
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TLMin
   nameWithType: CharDataState.TLMin
 - uid: TMPEffects.CharacterData.CharDataState.TL_Color
   name: TL_Color
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_Color
-  commentId: F:TMPEffects.CharacterData.CharDataState.TL_Color
+  commentId: P:TMPEffects.CharacterData.CharDataState.TL_Color
+  fullName: TMPEffects.CharacterData.CharDataState.TL_Color
+  nameWithType: CharDataState.TL_Color
+- uid: TMPEffects.CharacterData.CharDataState.TL_Color*
+  name: TL_Color
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_Color_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TL_Color
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TL_Color
   nameWithType: CharDataState.TL_Color
 - uid: TMPEffects.CharacterData.CharDataState.TL_Result
   name: TL_Result
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_Result
-  commentId: F:TMPEffects.CharacterData.CharDataState.TL_Result
+  commentId: P:TMPEffects.CharacterData.CharDataState.TL_Result
+  fullName: TMPEffects.CharacterData.CharDataState.TL_Result
+  nameWithType: CharDataState.TL_Result
+- uid: TMPEffects.CharacterData.CharDataState.TL_Result*
+  name: TL_Result
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_Result_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TL_Result
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TL_Result
   nameWithType: CharDataState.TL_Result
 - uid: TMPEffects.CharacterData.CharDataState.TL_UV
   name: TL_UV
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_UV
-  commentId: F:TMPEffects.CharacterData.CharDataState.TL_UV
+  commentId: P:TMPEffects.CharacterData.CharDataState.TL_UV
+  fullName: TMPEffects.CharacterData.CharDataState.TL_UV
+  nameWithType: CharDataState.TL_UV
+- uid: TMPEffects.CharacterData.CharDataState.TL_UV*
+  name: TL_UV
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_UV_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TL_UV
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TL_UV
   nameWithType: CharDataState.TL_UV
 - uid: TMPEffects.CharacterData.CharDataState.TL_UV2
   name: TL_UV2
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_UV2
-  commentId: F:TMPEffects.CharacterData.CharDataState.TL_UV2
+  commentId: P:TMPEffects.CharacterData.CharDataState.TL_UV2
+  fullName: TMPEffects.CharacterData.CharDataState.TL_UV2
+  nameWithType: CharDataState.TL_UV2
+- uid: TMPEffects.CharacterData.CharDataState.TL_UV2*
+  name: TL_UV2
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TL_UV2_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TL_UV2
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TL_UV2
   nameWithType: CharDataState.TL_UV2
 - uid: TMPEffects.CharacterData.CharDataState.TR
   name: TR
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR
-  commentId: F:TMPEffects.CharacterData.CharDataState.TR
+  commentId: P:TMPEffects.CharacterData.CharDataState.TR
+  fullName: TMPEffects.CharacterData.CharDataState.TR
+  nameWithType: CharDataState.TR
+- uid: TMPEffects.CharacterData.CharDataState.TR*
+  name: TR
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TR
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TR
   nameWithType: CharDataState.TR
 - uid: TMPEffects.CharacterData.CharDataState.TRMax
   name: TRMax
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TRMax
-  commentId: F:TMPEffects.CharacterData.CharDataState.TRMax
+  commentId: P:TMPEffects.CharacterData.CharDataState.TRMax
+  fullName: TMPEffects.CharacterData.CharDataState.TRMax
+  nameWithType: CharDataState.TRMax
+- uid: TMPEffects.CharacterData.CharDataState.TRMax*
+  name: TRMax
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TRMax_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TRMax
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TRMax
   nameWithType: CharDataState.TRMax
 - uid: TMPEffects.CharacterData.CharDataState.TRMin
   name: TRMin
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TRMin
-  commentId: F:TMPEffects.CharacterData.CharDataState.TRMin
+  commentId: P:TMPEffects.CharacterData.CharDataState.TRMin
+  fullName: TMPEffects.CharacterData.CharDataState.TRMin
+  nameWithType: CharDataState.TRMin
+- uid: TMPEffects.CharacterData.CharDataState.TRMin*
+  name: TRMin
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TRMin_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TRMin
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TRMin
   nameWithType: CharDataState.TRMin
 - uid: TMPEffects.CharacterData.CharDataState.TR_Color
   name: TR_Color
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_Color
-  commentId: F:TMPEffects.CharacterData.CharDataState.TR_Color
+  commentId: P:TMPEffects.CharacterData.CharDataState.TR_Color
+  fullName: TMPEffects.CharacterData.CharDataState.TR_Color
+  nameWithType: CharDataState.TR_Color
+- uid: TMPEffects.CharacterData.CharDataState.TR_Color*
+  name: TR_Color
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_Color_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TR_Color
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TR_Color
   nameWithType: CharDataState.TR_Color
 - uid: TMPEffects.CharacterData.CharDataState.TR_Result
   name: TR_Result
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_Result
-  commentId: F:TMPEffects.CharacterData.CharDataState.TR_Result
+  commentId: P:TMPEffects.CharacterData.CharDataState.TR_Result
+  fullName: TMPEffects.CharacterData.CharDataState.TR_Result
+  nameWithType: CharDataState.TR_Result
+- uid: TMPEffects.CharacterData.CharDataState.TR_Result*
+  name: TR_Result
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_Result_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TR_Result
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TR_Result
   nameWithType: CharDataState.TR_Result
 - uid: TMPEffects.CharacterData.CharDataState.TR_UV
   name: TR_UV
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_UV
-  commentId: F:TMPEffects.CharacterData.CharDataState.TR_UV
+  commentId: P:TMPEffects.CharacterData.CharDataState.TR_UV
+  fullName: TMPEffects.CharacterData.CharDataState.TR_UV
+  nameWithType: CharDataState.TR_UV
+- uid: TMPEffects.CharacterData.CharDataState.TR_UV*
+  name: TR_UV
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_UV_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TR_UV
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TR_UV
   nameWithType: CharDataState.TR_UV
 - uid: TMPEffects.CharacterData.CharDataState.TR_UV2
   name: TR_UV2
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_UV2
-  commentId: F:TMPEffects.CharacterData.CharDataState.TR_UV2
+  commentId: P:TMPEffects.CharacterData.CharDataState.TR_UV2
+  fullName: TMPEffects.CharacterData.CharDataState.TR_UV2
+  nameWithType: CharDataState.TR_UV2
+- uid: TMPEffects.CharacterData.CharDataState.TR_UV2*
+  name: TR_UV2
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_TR_UV2_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.TR_UV2
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.TR_UV2
   nameWithType: CharDataState.TR_UV2
 - uid: TMPEffects.CharacterData.CharDataState.UpdateVertexOffsets
@@ -687,15 +1041,451 @@ references:
 - uid: TMPEffects.CharacterData.CharDataState.positionDelta
   name: positionDelta
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_positionDelta
-  commentId: F:TMPEffects.CharacterData.CharDataState.positionDelta
+  commentId: P:TMPEffects.CharacterData.CharDataState.positionDelta
+  fullName: TMPEffects.CharacterData.CharDataState.positionDelta
+  nameWithType: CharDataState.positionDelta
+- uid: TMPEffects.CharacterData.CharDataState.positionDelta*
+  name: positionDelta
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_positionDelta_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.positionDelta
+  isSpec: "True"
   fullName: TMPEffects.CharacterData.CharDataState.positionDelta
   nameWithType: CharDataState.positionDelta
 - uid: TMPEffects.CharacterData.CharDataState.scaleDelta
   name: scaleDelta
   href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_scaleDelta
-  commentId: F:TMPEffects.CharacterData.CharDataState.scaleDelta
+  commentId: P:TMPEffects.CharacterData.CharDataState.scaleDelta
   fullName: TMPEffects.CharacterData.CharDataState.scaleDelta
   nameWithType: CharDataState.scaleDelta
+- uid: TMPEffects.CharacterData.CharDataState.scaleDelta*
+  name: scaleDelta
+  href: api/TMPEffects.CharacterData.CharDataState.html#TMPEffects_CharacterData_CharDataState_scaleDelta_
+  commentId: Overload:TMPEffects.CharacterData.CharDataState.scaleDelta
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.CharDataState.scaleDelta
+  nameWithType: CharDataState.scaleDelta
+- uid: TMPEffects.CharacterData.ICharDataState
+  name: ICharDataState
+  href: api/TMPEffects.CharacterData.ICharDataState.html
+  commentId: T:TMPEffects.CharacterData.ICharDataState
+  fullName: TMPEffects.CharacterData.ICharDataState
+  nameWithType: ICharDataState
+- uid: TMPEffects.CharacterData.ICharDataState.BL
+  name: BL
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BL
+  fullName: TMPEffects.CharacterData.ICharDataState.BL
+  nameWithType: ICharDataState.BL
+- uid: TMPEffects.CharacterData.ICharDataState.BL*
+  name: BL
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BL
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BL
+  nameWithType: ICharDataState.BL
+- uid: TMPEffects.CharacterData.ICharDataState.BLMax
+  name: BLMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BLMax
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BLMax
+  fullName: TMPEffects.CharacterData.ICharDataState.BLMax
+  nameWithType: ICharDataState.BLMax
+- uid: TMPEffects.CharacterData.ICharDataState.BLMax*
+  name: BLMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BLMax_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BLMax
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BLMax
+  nameWithType: ICharDataState.BLMax
+- uid: TMPEffects.CharacterData.ICharDataState.BLMin
+  name: BLMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BLMin
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BLMin
+  fullName: TMPEffects.CharacterData.ICharDataState.BLMin
+  nameWithType: ICharDataState.BLMin
+- uid: TMPEffects.CharacterData.ICharDataState.BLMin*
+  name: BLMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BLMin_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BLMin
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BLMin
+  nameWithType: ICharDataState.BLMin
+- uid: TMPEffects.CharacterData.ICharDataState.BL_Color
+  name: BL_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_Color
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BL_Color
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_Color
+  nameWithType: ICharDataState.BL_Color
+- uid: TMPEffects.CharacterData.ICharDataState.BL_Color*
+  name: BL_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_Color_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BL_Color
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_Color
+  nameWithType: ICharDataState.BL_Color
+- uid: TMPEffects.CharacterData.ICharDataState.BL_Result
+  name: BL_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_Result
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BL_Result
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_Result
+  nameWithType: ICharDataState.BL_Result
+- uid: TMPEffects.CharacterData.ICharDataState.BL_Result*
+  name: BL_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_Result_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BL_Result
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_Result
+  nameWithType: ICharDataState.BL_Result
+- uid: TMPEffects.CharacterData.ICharDataState.BL_UV
+  name: BL_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_UV
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BL_UV
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_UV
+  nameWithType: ICharDataState.BL_UV
+- uid: TMPEffects.CharacterData.ICharDataState.BL_UV*
+  name: BL_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_UV_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BL_UV
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_UV
+  nameWithType: ICharDataState.BL_UV
+- uid: TMPEffects.CharacterData.ICharDataState.BL_UV2
+  name: BL_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_UV2
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BL_UV2
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_UV2
+  nameWithType: ICharDataState.BL_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.BL_UV2*
+  name: BL_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BL_UV2_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BL_UV2
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BL_UV2
+  nameWithType: ICharDataState.BL_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.BR
+  name: BR
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BR
+  fullName: TMPEffects.CharacterData.ICharDataState.BR
+  nameWithType: ICharDataState.BR
+- uid: TMPEffects.CharacterData.ICharDataState.BR*
+  name: BR
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BR
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BR
+  nameWithType: ICharDataState.BR
+- uid: TMPEffects.CharacterData.ICharDataState.BRMax
+  name: BRMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BRMax
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BRMax
+  fullName: TMPEffects.CharacterData.ICharDataState.BRMax
+  nameWithType: ICharDataState.BRMax
+- uid: TMPEffects.CharacterData.ICharDataState.BRMax*
+  name: BRMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BRMax_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BRMax
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BRMax
+  nameWithType: ICharDataState.BRMax
+- uid: TMPEffects.CharacterData.ICharDataState.BRMin
+  name: BRMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BRMin
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BRMin
+  fullName: TMPEffects.CharacterData.ICharDataState.BRMin
+  nameWithType: ICharDataState.BRMin
+- uid: TMPEffects.CharacterData.ICharDataState.BRMin*
+  name: BRMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BRMin_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BRMin
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BRMin
+  nameWithType: ICharDataState.BRMin
+- uid: TMPEffects.CharacterData.ICharDataState.BR_Color
+  name: BR_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_Color
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BR_Color
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_Color
+  nameWithType: ICharDataState.BR_Color
+- uid: TMPEffects.CharacterData.ICharDataState.BR_Color*
+  name: BR_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_Color_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BR_Color
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_Color
+  nameWithType: ICharDataState.BR_Color
+- uid: TMPEffects.CharacterData.ICharDataState.BR_Result
+  name: BR_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_Result
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BR_Result
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_Result
+  nameWithType: ICharDataState.BR_Result
+- uid: TMPEffects.CharacterData.ICharDataState.BR_Result*
+  name: BR_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_Result_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BR_Result
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_Result
+  nameWithType: ICharDataState.BR_Result
+- uid: TMPEffects.CharacterData.ICharDataState.BR_UV
+  name: BR_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_UV
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BR_UV
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_UV
+  nameWithType: ICharDataState.BR_UV
+- uid: TMPEffects.CharacterData.ICharDataState.BR_UV*
+  name: BR_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_UV_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BR_UV
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_UV
+  nameWithType: ICharDataState.BR_UV
+- uid: TMPEffects.CharacterData.ICharDataState.BR_UV2
+  name: BR_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_UV2
+  commentId: P:TMPEffects.CharacterData.ICharDataState.BR_UV2
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_UV2
+  nameWithType: ICharDataState.BR_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.BR_UV2*
+  name: BR_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_BR_UV2_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.BR_UV2
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.BR_UV2
+  nameWithType: ICharDataState.BR_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.CalculateVertexPositions
+  name: CalculateVertexPositions()
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_CalculateVertexPositions
+  commentId: M:TMPEffects.CharacterData.ICharDataState.CalculateVertexPositions
+  fullName: TMPEffects.CharacterData.ICharDataState.CalculateVertexPositions()
+  nameWithType: ICharDataState.CalculateVertexPositions()
+- uid: TMPEffects.CharacterData.ICharDataState.CalculateVertexPositions*
+  name: CalculateVertexPositions
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_CalculateVertexPositions_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.CalculateVertexPositions
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.CalculateVertexPositions
+  nameWithType: ICharDataState.CalculateVertexPositions
+- uid: TMPEffects.CharacterData.ICharDataState.Rotations
+  name: Rotations
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_Rotations
+  commentId: P:TMPEffects.CharacterData.ICharDataState.Rotations
+  fullName: TMPEffects.CharacterData.ICharDataState.Rotations
+  nameWithType: ICharDataState.Rotations
+- uid: TMPEffects.CharacterData.ICharDataState.Rotations*
+  name: Rotations
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_Rotations_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.Rotations
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.Rotations
+  nameWithType: ICharDataState.Rotations
+- uid: TMPEffects.CharacterData.ICharDataState.TL
+  name: TL
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TL
+  fullName: TMPEffects.CharacterData.ICharDataState.TL
+  nameWithType: ICharDataState.TL
+- uid: TMPEffects.CharacterData.ICharDataState.TL*
+  name: TL
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TL
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TL
+  nameWithType: ICharDataState.TL
+- uid: TMPEffects.CharacterData.ICharDataState.TLMax
+  name: TLMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TLMax
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TLMax
+  fullName: TMPEffects.CharacterData.ICharDataState.TLMax
+  nameWithType: ICharDataState.TLMax
+- uid: TMPEffects.CharacterData.ICharDataState.TLMax*
+  name: TLMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TLMax_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TLMax
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TLMax
+  nameWithType: ICharDataState.TLMax
+- uid: TMPEffects.CharacterData.ICharDataState.TLMin
+  name: TLMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TLMin
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TLMin
+  fullName: TMPEffects.CharacterData.ICharDataState.TLMin
+  nameWithType: ICharDataState.TLMin
+- uid: TMPEffects.CharacterData.ICharDataState.TLMin*
+  name: TLMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TLMin_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TLMin
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TLMin
+  nameWithType: ICharDataState.TLMin
+- uid: TMPEffects.CharacterData.ICharDataState.TL_Color
+  name: TL_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_Color
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TL_Color
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_Color
+  nameWithType: ICharDataState.TL_Color
+- uid: TMPEffects.CharacterData.ICharDataState.TL_Color*
+  name: TL_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_Color_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TL_Color
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_Color
+  nameWithType: ICharDataState.TL_Color
+- uid: TMPEffects.CharacterData.ICharDataState.TL_Result
+  name: TL_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_Result
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TL_Result
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_Result
+  nameWithType: ICharDataState.TL_Result
+- uid: TMPEffects.CharacterData.ICharDataState.TL_Result*
+  name: TL_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_Result_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TL_Result
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_Result
+  nameWithType: ICharDataState.TL_Result
+- uid: TMPEffects.CharacterData.ICharDataState.TL_UV
+  name: TL_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_UV
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TL_UV
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_UV
+  nameWithType: ICharDataState.TL_UV
+- uid: TMPEffects.CharacterData.ICharDataState.TL_UV*
+  name: TL_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_UV_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TL_UV
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_UV
+  nameWithType: ICharDataState.TL_UV
+- uid: TMPEffects.CharacterData.ICharDataState.TL_UV2
+  name: TL_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_UV2
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TL_UV2
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_UV2
+  nameWithType: ICharDataState.TL_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.TL_UV2*
+  name: TL_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TL_UV2_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TL_UV2
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TL_UV2
+  nameWithType: ICharDataState.TL_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.TR
+  name: TR
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TR
+  fullName: TMPEffects.CharacterData.ICharDataState.TR
+  nameWithType: ICharDataState.TR
+- uid: TMPEffects.CharacterData.ICharDataState.TR*
+  name: TR
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TR
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TR
+  nameWithType: ICharDataState.TR
+- uid: TMPEffects.CharacterData.ICharDataState.TRMax
+  name: TRMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TRMax
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TRMax
+  fullName: TMPEffects.CharacterData.ICharDataState.TRMax
+  nameWithType: ICharDataState.TRMax
+- uid: TMPEffects.CharacterData.ICharDataState.TRMax*
+  name: TRMax
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TRMax_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TRMax
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TRMax
+  nameWithType: ICharDataState.TRMax
+- uid: TMPEffects.CharacterData.ICharDataState.TRMin
+  name: TRMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TRMin
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TRMin
+  fullName: TMPEffects.CharacterData.ICharDataState.TRMin
+  nameWithType: ICharDataState.TRMin
+- uid: TMPEffects.CharacterData.ICharDataState.TRMin*
+  name: TRMin
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TRMin_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TRMin
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TRMin
+  nameWithType: ICharDataState.TRMin
+- uid: TMPEffects.CharacterData.ICharDataState.TR_Color
+  name: TR_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_Color
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TR_Color
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_Color
+  nameWithType: ICharDataState.TR_Color
+- uid: TMPEffects.CharacterData.ICharDataState.TR_Color*
+  name: TR_Color
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_Color_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TR_Color
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_Color
+  nameWithType: ICharDataState.TR_Color
+- uid: TMPEffects.CharacterData.ICharDataState.TR_Result
+  name: TR_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_Result
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TR_Result
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_Result
+  nameWithType: ICharDataState.TR_Result
+- uid: TMPEffects.CharacterData.ICharDataState.TR_Result*
+  name: TR_Result
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_Result_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TR_Result
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_Result
+  nameWithType: ICharDataState.TR_Result
+- uid: TMPEffects.CharacterData.ICharDataState.TR_UV
+  name: TR_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_UV
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TR_UV
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_UV
+  nameWithType: ICharDataState.TR_UV
+- uid: TMPEffects.CharacterData.ICharDataState.TR_UV*
+  name: TR_UV
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_UV_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TR_UV
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_UV
+  nameWithType: ICharDataState.TR_UV
+- uid: TMPEffects.CharacterData.ICharDataState.TR_UV2
+  name: TR_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_UV2
+  commentId: P:TMPEffects.CharacterData.ICharDataState.TR_UV2
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_UV2
+  nameWithType: ICharDataState.TR_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.TR_UV2*
+  name: TR_UV2
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_TR_UV2_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.TR_UV2
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.TR_UV2
+  nameWithType: ICharDataState.TR_UV2
+- uid: TMPEffects.CharacterData.ICharDataState.positionDelta
+  name: positionDelta
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_positionDelta
+  commentId: P:TMPEffects.CharacterData.ICharDataState.positionDelta
+  fullName: TMPEffects.CharacterData.ICharDataState.positionDelta
+  nameWithType: ICharDataState.positionDelta
+- uid: TMPEffects.CharacterData.ICharDataState.positionDelta*
+  name: positionDelta
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_positionDelta_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.positionDelta
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.positionDelta
+  nameWithType: ICharDataState.positionDelta
+- uid: TMPEffects.CharacterData.ICharDataState.scaleDelta
+  name: scaleDelta
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_scaleDelta
+  commentId: P:TMPEffects.CharacterData.ICharDataState.scaleDelta
+  fullName: TMPEffects.CharacterData.ICharDataState.scaleDelta
+  nameWithType: ICharDataState.scaleDelta
+- uid: TMPEffects.CharacterData.ICharDataState.scaleDelta*
+  name: scaleDelta
+  href: api/TMPEffects.CharacterData.ICharDataState.html#TMPEffects_CharacterData_ICharDataState_scaleDelta_
+  commentId: Overload:TMPEffects.CharacterData.ICharDataState.scaleDelta
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ICharDataState.scaleDelta
+  nameWithType: ICharDataState.scaleDelta
 - uid: TMPEffects.CharacterData.Info
   name: Info
   href: api/TMPEffects.CharacterData.Info.html
@@ -1055,6 +1845,19 @@ references:
   isSpec: "True"
   fullName: TMPEffects.CharacterData.ReadOnlyCharDataState.CalculateVertexPositions
   nameWithType: ReadOnlyCharDataState.CalculateVertexPositions
+- uid: TMPEffects.CharacterData.ReadOnlyCharDataState.Rotations
+  name: Rotations
+  href: api/TMPEffects.CharacterData.ReadOnlyCharDataState.html#TMPEffects_CharacterData_ReadOnlyCharDataState_Rotations
+  commentId: P:TMPEffects.CharacterData.ReadOnlyCharDataState.Rotations
+  fullName: TMPEffects.CharacterData.ReadOnlyCharDataState.Rotations
+  nameWithType: ReadOnlyCharDataState.Rotations
+- uid: TMPEffects.CharacterData.ReadOnlyCharDataState.Rotations*
+  name: Rotations
+  href: api/TMPEffects.CharacterData.ReadOnlyCharDataState.html#TMPEffects_CharacterData_ReadOnlyCharDataState_Rotations_
+  commentId: Overload:TMPEffects.CharacterData.ReadOnlyCharDataState.Rotations
+  isSpec: "True"
+  fullName: TMPEffects.CharacterData.ReadOnlyCharDataState.Rotations
+  nameWithType: ReadOnlyCharDataState.Rotations
 - uid: TMPEffects.CharacterData.ReadOnlyCharDataState.TL
   name: TL
   href: api/TMPEffects.CharacterData.ReadOnlyCharDataState.html#TMPEffects_CharacterData_ReadOnlyCharDataState_TL
@@ -3642,6 +4445,19 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.CommandTags
   nameWithType: TMPWriter.CommandTags
+- uid: TMPEffects.Components.TMPWriter.CurrentDelays
+  name: CurrentDelays
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_CurrentDelays
+  commentId: P:TMPEffects.Components.TMPWriter.CurrentDelays
+  fullName: TMPEffects.Components.TMPWriter.CurrentDelays
+  nameWithType: TMPWriter.CurrentDelays
+- uid: TMPEffects.Components.TMPWriter.CurrentDelays*
+  name: CurrentDelays
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_CurrentDelays_
+  commentId: Overload:TMPEffects.Components.TMPWriter.CurrentDelays
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.CurrentDelays
+  nameWithType: TMPWriter.CurrentDelays
 - uid: TMPEffects.Components.TMPWriter.CurrentIndex
   name: CurrentIndex
   href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_CurrentIndex
@@ -3668,6 +4484,19 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.Database
   nameWithType: TMPWriter.Database
+- uid: TMPEffects.Components.TMPWriter.DefaultDelays
+  name: DefaultDelays
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_DefaultDelays
+  commentId: P:TMPEffects.Components.TMPWriter.DefaultDelays
+  fullName: TMPEffects.Components.TMPWriter.DefaultDelays
+  nameWithType: TMPWriter.DefaultDelays
+- uid: TMPEffects.Components.TMPWriter.DefaultDelays*
+  name: DefaultDelays
+  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_DefaultDelays_
+  commentId: Overload:TMPEffects.Components.TMPWriter.DefaultDelays
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.DefaultDelays
+  nameWithType: TMPWriter.DefaultDelays
 - uid: TMPEffects.Components.TMPWriter.DelayType
   name: TMPWriter.DelayType
   href: api/TMPEffects.Components.TMPWriter.DelayType.html
@@ -3686,6 +4515,198 @@ references:
   commentId: F:TMPEffects.Components.TMPWriter.DelayType.Raw
   fullName: TMPEffects.Components.TMPWriter.DelayType.Raw
   nameWithType: TMPWriter.DelayType.Raw
+- uid: TMPEffects.Components.TMPWriter.Delays
+  name: TMPWriter.Delays
+  href: api/TMPEffects.Components.TMPWriter.Delays.html
+  commentId: T:TMPEffects.Components.TMPWriter.Delays
+  fullName: TMPEffects.Components.TMPWriter.Delays
+  nameWithType: TMPWriter.Delays
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedLinebreakDelay
+  name: CalculatedLinebreakDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedLinebreakDelay
+  commentId: P:TMPEffects.Components.TMPWriter.Delays.CalculatedLinebreakDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedLinebreakDelay
+  nameWithType: TMPWriter.Delays.CalculatedLinebreakDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedLinebreakDelay*
+  name: CalculatedLinebreakDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedLinebreakDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.CalculatedLinebreakDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedLinebreakDelay
+  nameWithType: TMPWriter.Delays.CalculatedLinebreakDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedPunctuationDelay
+  name: CalculatedPunctuationDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedPunctuationDelay
+  commentId: P:TMPEffects.Components.TMPWriter.Delays.CalculatedPunctuationDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedPunctuationDelay
+  nameWithType: TMPWriter.Delays.CalculatedPunctuationDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedPunctuationDelay*
+  name: CalculatedPunctuationDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedPunctuationDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.CalculatedPunctuationDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedPunctuationDelay
+  nameWithType: TMPWriter.Delays.CalculatedPunctuationDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedVisibleDelay
+  name: CalculatedVisibleDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedVisibleDelay
+  commentId: P:TMPEffects.Components.TMPWriter.Delays.CalculatedVisibleDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedVisibleDelay
+  nameWithType: TMPWriter.Delays.CalculatedVisibleDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedVisibleDelay*
+  name: CalculatedVisibleDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedVisibleDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.CalculatedVisibleDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedVisibleDelay
+  nameWithType: TMPWriter.Delays.CalculatedVisibleDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedWhiteSpaceDelay
+  name: CalculatedWhiteSpaceDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedWhiteSpaceDelay
+  commentId: P:TMPEffects.Components.TMPWriter.Delays.CalculatedWhiteSpaceDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedWhiteSpaceDelay
+  nameWithType: TMPWriter.Delays.CalculatedWhiteSpaceDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.CalculatedWhiteSpaceDelay*
+  name: CalculatedWhiteSpaceDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_CalculatedWhiteSpaceDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.CalculatedWhiteSpaceDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.CalculatedWhiteSpaceDelay
+  nameWithType: TMPWriter.Delays.CalculatedWhiteSpaceDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.SetDelay(System.Single)
+  name: SetDelay(float)
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetDelay_System_Single_
+  commentId: M:TMPEffects.Components.TMPWriter.Delays.SetDelay(System.Single)
+  name.vb: SetDelay(Single)
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetDelay(float)
+  fullName.vb: TMPEffects.Components.TMPWriter.Delays.SetDelay(Single)
+  nameWithType: TMPWriter.Delays.SetDelay(float)
+  nameWithType.vb: TMPWriter.Delays.SetDelay(Single)
+- uid: TMPEffects.Components.TMPWriter.Delays.SetDelay*
+  name: SetDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.SetDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetDelay
+  nameWithType: TMPWriter.Delays.SetDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name: SetLinebreakDelay(float, DelayType?)
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetLinebreakDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
+  commentId: M:TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name.vb: SetLinebreakDelay(Single, DelayType?)
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
+  fullName.vb: TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
+  nameWithType: TMPWriter.Delays.SetLinebreakDelay(float, TMPWriter.DelayType?)
+  nameWithType.vb: TMPWriter.Delays.SetLinebreakDelay(Single, TMPWriter.DelayType?)
+- uid: TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay*
+  name: SetLinebreakDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetLinebreakDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetLinebreakDelay
+  nameWithType: TMPWriter.Delays.SetLinebreakDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name: SetPunctuationDelay(float, DelayType?)
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetPunctuationDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
+  commentId: M:TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name.vb: SetPunctuationDelay(Single, DelayType?)
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
+  fullName.vb: TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
+  nameWithType: TMPWriter.Delays.SetPunctuationDelay(float, TMPWriter.DelayType?)
+  nameWithType.vb: TMPWriter.Delays.SetPunctuationDelay(Single, TMPWriter.DelayType?)
+- uid: TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay*
+  name: SetPunctuationDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetPunctuationDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetPunctuationDelay
+  nameWithType: TMPWriter.Delays.SetPunctuationDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name: SetVisibleDelay(float, DelayType?)
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetVisibleDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
+  commentId: M:TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name.vb: SetVisibleDelay(Single, DelayType?)
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
+  fullName.vb: TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
+  nameWithType: TMPWriter.Delays.SetVisibleDelay(float, TMPWriter.DelayType?)
+  nameWithType.vb: TMPWriter.Delays.SetVisibleDelay(Single, TMPWriter.DelayType?)
+- uid: TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay*
+  name: SetVisibleDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetVisibleDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetVisibleDelay
+  nameWithType: TMPWriter.Delays.SetVisibleDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name: SetWhitespaceDelay(float, DelayType?)
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetWhitespaceDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
+  commentId: M:TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
+  name.vb: SetWhitespaceDelay(Single, DelayType?)
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
+  fullName.vb: TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
+  nameWithType: TMPWriter.Delays.SetWhitespaceDelay(float, TMPWriter.DelayType?)
+  nameWithType.vb: TMPWriter.Delays.SetWhitespaceDelay(Single, TMPWriter.DelayType?)
+- uid: TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay*
+  name: SetWhitespaceDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_SetWhitespaceDelay_
+  commentId: Overload:TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay
+  isSpec: "True"
+  fullName: TMPEffects.Components.TMPWriter.Delays.SetWhitespaceDelay
+  nameWithType: TMPWriter.Delays.SetWhitespaceDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.delay
+  name: delay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_delay
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.delay
+  fullName: TMPEffects.Components.TMPWriter.Delays.delay
+  nameWithType: TMPWriter.Delays.delay
+- uid: TMPEffects.Components.TMPWriter.Delays.linebreakDelay
+  name: linebreakDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_linebreakDelay
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.linebreakDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.linebreakDelay
+  nameWithType: TMPWriter.Delays.linebreakDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.linebreakDelayType
+  name: linebreakDelayType
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_linebreakDelayType
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.linebreakDelayType
+  fullName: TMPEffects.Components.TMPWriter.Delays.linebreakDelayType
+  nameWithType: TMPWriter.Delays.linebreakDelayType
+- uid: TMPEffects.Components.TMPWriter.Delays.punctuationDelay
+  name: punctuationDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_punctuationDelay
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.punctuationDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.punctuationDelay
+  nameWithType: TMPWriter.Delays.punctuationDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.punctuationDelayType
+  name: punctuationDelayType
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_punctuationDelayType
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.punctuationDelayType
+  fullName: TMPEffects.Components.TMPWriter.Delays.punctuationDelayType
+  nameWithType: TMPWriter.Delays.punctuationDelayType
+- uid: TMPEffects.Components.TMPWriter.Delays.visibleDelay
+  name: visibleDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_visibleDelay
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.visibleDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.visibleDelay
+  nameWithType: TMPWriter.Delays.visibleDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.visibleDelayType
+  name: visibleDelayType
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_visibleDelayType
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.visibleDelayType
+  fullName: TMPEffects.Components.TMPWriter.Delays.visibleDelayType
+  nameWithType: TMPWriter.Delays.visibleDelayType
+- uid: TMPEffects.Components.TMPWriter.Delays.whitespaceDelay
+  name: whitespaceDelay
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_whitespaceDelay
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.whitespaceDelay
+  fullName: TMPEffects.Components.TMPWriter.Delays.whitespaceDelay
+  nameWithType: TMPWriter.Delays.whitespaceDelay
+- uid: TMPEffects.Components.TMPWriter.Delays.whitespaceDelayType
+  name: whitespaceDelayType
+  href: api/TMPEffects.Components.TMPWriter.Delays.html#TMPEffects_Components_TMPWriter_Delays_whitespaceDelayType
+  commentId: F:TMPEffects.Components.TMPWriter.Delays.whitespaceDelayType
+  fullName: TMPEffects.Components.TMPWriter.Delays.whitespaceDelayType
+  nameWithType: TMPWriter.Delays.whitespaceDelayType
 - uid: TMPEffects.Components.TMPWriter.EVENT_PREFIX
   name: EVENT_PREFIX
   href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_EVENT_PREFIX
@@ -3847,54 +4868,6 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.SetDatabase
   nameWithType: TMPWriter.SetDatabase
-- uid: TMPEffects.Components.TMPWriter.SetDelay(System.Single)
-  name: SetDelay(float)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetDelay_System_Single_
-  commentId: M:TMPEffects.Components.TMPWriter.SetDelay(System.Single)
-  name.vb: SetDelay(Single)
-  fullName: TMPEffects.Components.TMPWriter.SetDelay(float)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetDelay(Single)
-  nameWithType: TMPWriter.SetDelay(float)
-  nameWithType.vb: TMPWriter.SetDelay(Single)
-- uid: TMPEffects.Components.TMPWriter.SetDelay*
-  name: SetDelay
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetDelay_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetDelay
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetDelay
-  nameWithType: TMPWriter.SetDelay
-- uid: TMPEffects.Components.TMPWriter.SetLinebreakDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name: SetLinebreakDelay(float, DelayType?)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetLinebreakDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
-  commentId: M:TMPEffects.Components.TMPWriter.SetLinebreakDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name.vb: SetLinebreakDelay(Single, DelayType?)
-  fullName: TMPEffects.Components.TMPWriter.SetLinebreakDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetLinebreakDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
-  nameWithType: TMPWriter.SetLinebreakDelay(float, TMPWriter.DelayType?)
-  nameWithType.vb: TMPWriter.SetLinebreakDelay(Single, TMPWriter.DelayType?)
-- uid: TMPEffects.Components.TMPWriter.SetLinebreakDelay*
-  name: SetLinebreakDelay
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetLinebreakDelay_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetLinebreakDelay
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetLinebreakDelay
-  nameWithType: TMPWriter.SetLinebreakDelay
-- uid: TMPEffects.Components.TMPWriter.SetPunctuationDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name: SetPunctuationDelay(float, DelayType?)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetPunctuationDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
-  commentId: M:TMPEffects.Components.TMPWriter.SetPunctuationDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name.vb: SetPunctuationDelay(Single, DelayType?)
-  fullName: TMPEffects.Components.TMPWriter.SetPunctuationDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetPunctuationDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
-  nameWithType: TMPWriter.SetPunctuationDelay(float, TMPWriter.DelayType?)
-  nameWithType.vb: TMPWriter.SetPunctuationDelay(Single, TMPWriter.DelayType?)
-- uid: TMPEffects.Components.TMPWriter.SetPunctuationDelay*
-  name: SetPunctuationDelay
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetPunctuationDelay_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetPunctuationDelay
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetPunctuationDelay
-  nameWithType: TMPWriter.SetPunctuationDelay
 - uid: TMPEffects.Components.TMPWriter.SetSkippable(System.Boolean)
   name: SetSkippable(bool)
   href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetSkippable_System_Boolean_
@@ -3911,38 +4884,6 @@ references:
   isSpec: "True"
   fullName: TMPEffects.Components.TMPWriter.SetSkippable
   nameWithType: TMPWriter.SetSkippable
-- uid: TMPEffects.Components.TMPWriter.SetVisibleDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name: SetVisibleDelay(float, DelayType?)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetVisibleDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
-  commentId: M:TMPEffects.Components.TMPWriter.SetVisibleDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name.vb: SetVisibleDelay(Single, DelayType?)
-  fullName: TMPEffects.Components.TMPWriter.SetVisibleDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetVisibleDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
-  nameWithType: TMPWriter.SetVisibleDelay(float, TMPWriter.DelayType?)
-  nameWithType.vb: TMPWriter.SetVisibleDelay(Single, TMPWriter.DelayType?)
-- uid: TMPEffects.Components.TMPWriter.SetVisibleDelay*
-  name: SetVisibleDelay
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetVisibleDelay_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetVisibleDelay
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetVisibleDelay
-  nameWithType: TMPWriter.SetVisibleDelay
-- uid: TMPEffects.Components.TMPWriter.SetWhitespaceDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name: SetWhitespaceDelay(float, DelayType?)
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetWhitespaceDelay_System_Single_System_Nullable_TMPEffects_Components_TMPWriter_DelayType__
-  commentId: M:TMPEffects.Components.TMPWriter.SetWhitespaceDelay(System.Single,System.Nullable{TMPEffects.Components.TMPWriter.DelayType})
-  name.vb: SetWhitespaceDelay(Single, DelayType?)
-  fullName: TMPEffects.Components.TMPWriter.SetWhitespaceDelay(float, TMPEffects.Components.TMPWriter.DelayType?)
-  fullName.vb: TMPEffects.Components.TMPWriter.SetWhitespaceDelay(Single, TMPEffects.Components.TMPWriter.DelayType?)
-  nameWithType: TMPWriter.SetWhitespaceDelay(float, TMPWriter.DelayType?)
-  nameWithType.vb: TMPWriter.SetWhitespaceDelay(Single, TMPWriter.DelayType?)
-- uid: TMPEffects.Components.TMPWriter.SetWhitespaceDelay*
-  name: SetWhitespaceDelay
-  href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SetWhitespaceDelay_
-  commentId: Overload:TMPEffects.Components.TMPWriter.SetWhitespaceDelay
-  isSpec: "True"
-  fullName: TMPEffects.Components.TMPWriter.SetWhitespaceDelay
-  nameWithType: TMPWriter.SetWhitespaceDelay
 - uid: TMPEffects.Components.TMPWriter.SkipWriter(System.Boolean)
   name: SkipWriter(bool)
   href: api/TMPEffects.Components.TMPWriter.html#TMPEffects_Components_TMPWriter_SkipWriter_System_Boolean_
@@ -4450,23 +5391,6 @@ references:
   fullName.vb: TMPEffects.Databases.TMPEffectDatabase(Of T).GetEffect
   nameWithType: TMPEffectDatabase<T>.GetEffect
   nameWithType.vb: TMPEffectDatabase(Of T).GetEffect
-- uid: TMPEffects.Databases.TMPEffectDatabase`1.ListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  name: ListenForChanges(ObjectChangedEventHandler)
-  href: api/TMPEffects.Databases.TMPEffectDatabase-1.html#TMPEffects_Databases_TMPEffectDatabase_1_ListenForChanges_TMPEffects_ObjectChanged_ObjectChangedEventHandler_
-  commentId: M:TMPEffects.Databases.TMPEffectDatabase`1.ListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  fullName: TMPEffects.Databases.TMPEffectDatabase<T>.ListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  fullName.vb: TMPEffects.Databases.TMPEffectDatabase(Of T).ListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  nameWithType: TMPEffectDatabase<T>.ListenForChanges(ObjectChangedEventHandler)
-  nameWithType.vb: TMPEffectDatabase(Of T).ListenForChanges(ObjectChangedEventHandler)
-- uid: TMPEffects.Databases.TMPEffectDatabase`1.ListenForChanges*
-  name: ListenForChanges
-  href: api/TMPEffects.Databases.TMPEffectDatabase-1.html#TMPEffects_Databases_TMPEffectDatabase_1_ListenForChanges_
-  commentId: Overload:TMPEffects.Databases.TMPEffectDatabase`1.ListenForChanges
-  isSpec: "True"
-  fullName: TMPEffects.Databases.TMPEffectDatabase<T>.ListenForChanges
-  fullName.vb: TMPEffects.Databases.TMPEffectDatabase(Of T).ListenForChanges
-  nameWithType: TMPEffectDatabase<T>.ListenForChanges
-  nameWithType.vb: TMPEffectDatabase(Of T).ListenForChanges
 - uid: TMPEffects.Databases.TMPEffectDatabase`1.ObjectChanged
   name: ObjectChanged
   href: api/TMPEffects.Databases.TMPEffectDatabase-1.html#TMPEffects_Databases_TMPEffectDatabase_1_ObjectChanged
@@ -4526,23 +5450,6 @@ references:
   fullName.vb: TMPEffects.Databases.TMPEffectDatabase(Of T).RaiseDatabaseChanged
   nameWithType: TMPEffectDatabase<T>.RaiseDatabaseChanged
   nameWithType.vb: TMPEffectDatabase(Of T).RaiseDatabaseChanged
-- uid: TMPEffects.Databases.TMPEffectDatabase`1.StopListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  name: StopListenForChanges(ObjectChangedEventHandler)
-  href: api/TMPEffects.Databases.TMPEffectDatabase-1.html#TMPEffects_Databases_TMPEffectDatabase_1_StopListenForChanges_TMPEffects_ObjectChanged_ObjectChangedEventHandler_
-  commentId: M:TMPEffects.Databases.TMPEffectDatabase`1.StopListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  fullName: TMPEffects.Databases.TMPEffectDatabase<T>.StopListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  fullName.vb: TMPEffects.Databases.TMPEffectDatabase(Of T).StopListenForChanges(TMPEffects.ObjectChanged.ObjectChangedEventHandler)
-  nameWithType: TMPEffectDatabase<T>.StopListenForChanges(ObjectChangedEventHandler)
-  nameWithType.vb: TMPEffectDatabase(Of T).StopListenForChanges(ObjectChangedEventHandler)
-- uid: TMPEffects.Databases.TMPEffectDatabase`1.StopListenForChanges*
-  name: StopListenForChanges
-  href: api/TMPEffects.Databases.TMPEffectDatabase-1.html#TMPEffects_Databases_TMPEffectDatabase_1_StopListenForChanges_
-  commentId: Overload:TMPEffects.Databases.TMPEffectDatabase`1.StopListenForChanges
-  isSpec: "True"
-  fullName: TMPEffects.Databases.TMPEffectDatabase<T>.StopListenForChanges
-  fullName.vb: TMPEffects.Databases.TMPEffectDatabase(Of T).StopListenForChanges
-  nameWithType: TMPEffectDatabase<T>.StopListenForChanges
-  nameWithType.vb: TMPEffectDatabase(Of T).StopListenForChanges
 - uid: TMPEffects.EffectCategories
   name: TMPEffects.EffectCategories
   href: api/TMPEffects.EffectCategories.html
@@ -6980,22 +7887,6 @@ references:
   isSpec: "True"
   fullName: TMPEffects.TMPAnimations.AnimationUtility.ClosestPointOnLine
   nameWithType: AnimationUtility.ClosestPointOnLine
-- uid: TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod(System.Single)
-  name: FrequencyToPeriod(float)
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_FrequencyToPeriod_System_Single_
-  commentId: M:TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod(System.Single)
-  name.vb: FrequencyToPeriod(Single)
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod(float)
-  fullName.vb: TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod(Single)
-  nameWithType: AnimationUtility.FrequencyToPeriod(float)
-  nameWithType.vb: AnimationUtility.FrequencyToPeriod(Single)
-- uid: TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod*
-  name: FrequencyToPeriod
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_FrequencyToPeriod_
-  commentId: Overload:TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod
-  isSpec: "True"
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.FrequencyToPeriod
-  nameWithType: AnimationUtility.FrequencyToPeriod
 - uid: TMPEffects.TMPAnimations.AnimationUtility.GetRawDelta(UnityEngine.Vector3,TMPEffects.CharacterData.CharData,TMPEffects.Components.Animator.IAnimatorContext)
   name: GetRawDelta(Vector3, CharData, IAnimatorContext)
   href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_GetRawDelta_UnityEngine_Vector3_TMPEffects_CharacterData_CharData_TMPEffects_Components_Animator_IAnimatorContext_
@@ -7126,22 +8017,22 @@ references:
   isSpec: "True"
   fullName: TMPEffects.TMPAnimations.AnimationUtility.InverseScaleVector
   nameWithType: AnimationUtility.InverseScaleVector
-- uid: TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency(System.Single)
-  name: PeriodToFrequency(float)
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_PeriodToFrequency_System_Single_
-  commentId: M:TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency(System.Single)
-  name.vb: PeriodToFrequency(Single)
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency(float)
-  fullName.vb: TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency(Single)
-  nameWithType: AnimationUtility.PeriodToFrequency(float)
-  nameWithType.vb: AnimationUtility.PeriodToFrequency(Single)
-- uid: TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency*
-  name: PeriodToFrequency
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_PeriodToFrequency_
-  commentId: Overload:TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency
+- uid: TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh(TMPro.TMP_Text,System.Single)
+  name: ScaleTextMesh(TMP_Text, float)
+  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_ScaleTextMesh_TMPro_TMP_Text_System_Single_
+  commentId: M:TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh(TMPro.TMP_Text,System.Single)
+  name.vb: ScaleTextMesh(TMP_Text, Single)
+  fullName: TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh(TMPro.TMP_Text, float)
+  fullName.vb: TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh(TMPro.TMP_Text, Single)
+  nameWithType: AnimationUtility.ScaleTextMesh(TMP_Text, float)
+  nameWithType.vb: AnimationUtility.ScaleTextMesh(TMP_Text, Single)
+- uid: TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh*
+  name: ScaleTextMesh
+  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_ScaleTextMesh_
+  commentId: Overload:TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh
   isSpec: "True"
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.PeriodToFrequency
-  nameWithType: AnimationUtility.PeriodToFrequency
+  fullName: TMPEffects.TMPAnimations.AnimationUtility.ScaleTextMesh
+  nameWithType: AnimationUtility.ScaleTextMesh
 - uid: TMPEffects.TMPAnimations.AnimationUtility.ScaleVector(UnityEngine.Vector3,TMPEffects.CharacterData.CharData,TMPEffects.Components.Animator.IAnimatorContext)
   name: ScaleVector(Vector3, CharData, IAnimatorContext)
   href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_ScaleVector_UnityEngine_Vector3_TMPEffects_CharacterData_CharData_TMPEffects_Components_Animator_IAnimatorContext_
@@ -7751,38 +8642,6 @@ references:
   commentId: F:TMPEffects.TMPAnimations.AnimationUtility.WaveBase.wavelength
   fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveBase.wavelength
   nameWithType: AnimationUtility.WaveBase.wavelength
-- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity(System.Single,System.Single)
-  name: WaveLengthFrequencyToVelocity(float, float)
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_WaveLengthFrequencyToVelocity_System_Single_System_Single_
-  commentId: M:TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity(System.Single,System.Single)
-  name.vb: WaveLengthFrequencyToVelocity(Single, Single)
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity(float, float)
-  fullName.vb: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity(Single, Single)
-  nameWithType: AnimationUtility.WaveLengthFrequencyToVelocity(float, float)
-  nameWithType.vb: AnimationUtility.WaveLengthFrequencyToVelocity(Single, Single)
-- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity*
-  name: WaveLengthFrequencyToVelocity
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_WaveLengthFrequencyToVelocity_
-  commentId: Overload:TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity
-  isSpec: "True"
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthFrequencyToVelocity
-  nameWithType: AnimationUtility.WaveLengthFrequencyToVelocity
-- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency(System.Single,System.Single)
-  name: WaveLengthVelocityToFrequency(float, float)
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_WaveLengthVelocityToFrequency_System_Single_System_Single_
-  commentId: M:TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency(System.Single,System.Single)
-  name.vb: WaveLengthVelocityToFrequency(Single, Single)
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency(float, float)
-  fullName.vb: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency(Single, Single)
-  nameWithType: AnimationUtility.WaveLengthVelocityToFrequency(float, float)
-  nameWithType.vb: AnimationUtility.WaveLengthVelocityToFrequency(Single, Single)
-- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency*
-  name: WaveLengthVelocityToFrequency
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_WaveLengthVelocityToFrequency_
-  commentId: Overload:TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency
-  isSpec: "True"
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveLengthVelocityToFrequency
-  nameWithType: AnimationUtility.WaveLengthVelocityToFrequency
 - uid: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType
   name: AnimationUtility.WaveOffsetType
   href: api/TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.html
@@ -7849,22 +8708,6 @@ references:
   commentId: F:TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.YPos
   fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveOffsetType.YPos
   nameWithType: AnimationUtility.WaveOffsetType.YPos
-- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength(System.Single,System.Single)
-  name: WaveVelocityFrequencyToLength(float, float)
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_WaveVelocityFrequencyToLength_System_Single_System_Single_
-  commentId: M:TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength(System.Single,System.Single)
-  name.vb: WaveVelocityFrequencyToLength(Single, Single)
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength(float, float)
-  fullName.vb: TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength(Single, Single)
-  nameWithType: AnimationUtility.WaveVelocityFrequencyToLength(float, float)
-  nameWithType.vb: AnimationUtility.WaveVelocityFrequencyToLength(Single, Single)
-- uid: TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength*
-  name: WaveVelocityFrequencyToLength
-  href: api/TMPEffects.TMPAnimations.AnimationUtility.html#TMPEffects_TMPAnimations_AnimationUtility_WaveVelocityFrequencyToLength_
-  commentId: Overload:TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength
-  isSpec: "True"
-  fullName: TMPEffects.TMPAnimations.AnimationUtility.WaveVelocityFrequencyToLength
-  nameWithType: AnimationUtility.WaveVelocityFrequencyToLength
 - uid: TMPEffects.TMPAnimations.Animations
   name: TMPEffects.TMPAnimations.Animations
   href: api/TMPEffects.TMPAnimations.Animations.html

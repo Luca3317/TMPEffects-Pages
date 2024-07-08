@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TMPMediator | TMPEffects ">
       
-      <meta name="description" content="A mediator class for TMPAnimator and TMPWriter (and potential additions, if any). Handles the pre- and postprocessing of the text, as well as maintaining information about it in the form of a CharData collection.">
+      <meta name="description" content="A mediator class for TMPAnimator and TMPWriter (and potential additions, if any). Handles the pre- and postprocessing of the text, as well as maintaining information about it in the form of a  and  collection.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -99,7 +99,7 @@ Class TMPMediator  <a class="header-action link-secondary" title="View source" h
 
   <div class="markdown summary"><p>A mediator class for TMPAnimator and TMPWriter (and potential additions, if any).<br>
 Handles the pre- and postprocessing of the text, as well as maintaining information
-about it in the form of a CharData collection.</p>
+about it in the form of a <a class="xref" href="TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_CharData">CharData</a> and <a class="xref" href="TMPEffects.CharacterData.VisibilityState.html">VisibilityState</a> collection.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -291,10 +291,11 @@ about it in the form of a CharData collection.</p>
 
   <h3 id="TMPEffects_Components_Mediator_TMPMediator_ApplyMesh_TMPEffects_CharacterData_CharData_" data-uid="TMPEffects.Components.Mediator.TMPMediator.ApplyMesh(TMPEffects.CharacterData.CharData)">
   ApplyMesh(CharData)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Apply the mesh of the <a class="xref" href="TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_CharData">CharData</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -325,7 +326,8 @@ about it in the form of a CharData collection.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Dispose the TMPMediator instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -348,7 +350,7 @@ about it in the form of a CharData collection.</p>
 
   <h3 id="TMPEffects_Components_Mediator_TMPMediator_ForceReprocess" data-uid="TMPEffects.Components.Mediator.TMPMediator.ForceReprocess">
   ForceReprocess()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Forces a mesh update on the associated <span class="xref">TMPro.TMP_Text</span> component.<br>
@@ -470,10 +472,11 @@ an <a class="xref" href="TMPEffects.CharacterData.VisibilityState.html">Visibili
 
   <h3 id="TMPEffects_Components_Mediator_TMPMediator_SetText_System_String_" data-uid="TMPEffects.Components.Mediator.TMPMediator.SetText(System.String)">
   SetText(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set the text of the associated <span class="xref">TMPro.TMP_Text</span> component.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -673,7 +676,7 @@ Therefore, the responsiblity is on you to ensure <code class="paramref">cData</c
 
   <h3 id="TMPEffects_Components_Mediator_TMPMediator_TextChanged_Early" data-uid="TMPEffects.Components.Mediator.TMPMediator.TextChanged_Early">
   TextChanged_Early
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raised when the associated <span class="xref">TMPro.TMP_Text</span> component raises its TEXT_CHANGED_EVENT, before <a class="xref" href="TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_TextChanged_Late">TextChanged_Late</a>.<br>
@@ -706,7 +709,7 @@ listeners, such as setting visibilities or char data. For such operations, use <
 
   <h3 id="TMPEffects_Components_Mediator_TMPMediator_TextChanged_Late" data-uid="TMPEffects.Components.Mediator.TMPMediator.TextChanged_Late">
   TextChanged_Late
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raised when the associated <span class="xref">TMPro.TMP_Text</span> component raises its TEXT_CHANGED_EVENT, after <a class="xref" href="TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_TextChanged_Early">TextChanged_Early</a>.<br></p>
@@ -737,7 +740,7 @@ listeners, such as setting visibilities or char data. For such operations, use <
 
   <h3 id="TMPEffects_Components_Mediator_TMPMediator_VisibilityStateUpdated" data-uid="TMPEffects.Components.Mediator.TMPMediator.VisibilityStateUpdated">
   VisibilityStateUpdated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/Components/TMPMediator/TMPMediator.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raised when the <a class="xref" href="TMPEffects.CharacterData.VisibilityState.html">VisibilityState</a> of one of the contained <a class="xref" href="TMPEffects.Components.Mediator.TMPMediator.html#TMPEffects_Components_Mediator_TMPMediator_CharData">CharData</a> is updated.</p>

@@ -89,7 +89,7 @@
 
 
   <h1 id="TMPEffects_CharacterData_CharData" data-uid="TMPEffects.CharacterData.CharData" class="text-break">
-Class CharData  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class CharData  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -158,16 +158,16 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <a id="TMPEffects_CharacterData_CharData__ctor_" data-uid="TMPEffects.CharacterData.CharData.#ctor*"></a>
 
-  <h3 id="TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_" data-uid="TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo)">
-  CharData(int, TMP_CharacterInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Int32_" data-uid="TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32)">
+  CharData(int, TMP_CharacterInfo, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharData(int index, TMP_CharacterInfo cInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharData(int index, TMP_CharacterInfo cInfo, int wordIndex)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -175,6 +175,8 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
     <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
     <dt><code>cInfo</code> <span class="xref">TMP_CharacterInfo</span></dt>
+    <dd></dd>
+    <dt><code>wordIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -191,16 +193,16 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <a id="TMPEffects_CharacterData_CharData__ctor_" data-uid="TMPEffects.CharacterData.CharData.#ctor*"></a>
 
-  <h3 id="TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Nullable_TMPro_TMP_WordInfo__" data-uid="TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Nullable{TMPro.TMP_WordInfo})">
-  CharData(int, TMP_CharacterInfo, TMP_WordInfo?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TMPEffects_CharacterData_CharData__ctor_System_Int32_TMPro_TMP_CharacterInfo_System_Int32_System_Nullable_TMPro_TMP_WordInfo__" data-uid="TMPEffects.CharacterData.CharData.#ctor(System.Int32,TMPro.TMP_CharacterInfo,System.Int32,System.Nullable{TMPro.TMP_WordInfo})">
+  CharData(int, TMP_CharacterInfo, int, TMP_WordInfo?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharData(int index, TMP_CharacterInfo cInfo, TMP_WordInfo? wInfo = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharData(int index, TMP_CharacterInfo cInfo, int wordIndex, TMP_WordInfo? wInfo = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -208,6 +210,8 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
     <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
     <dt><code>cInfo</code> <span class="xref">TMP_CharacterInfo</span></dt>
+    <dd></dd>
+    <dt><code>wordIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
     <dt><code>wInfo</code> <span class="xref">TMP_WordInfo</span>?</dt>
     <dd></dd>
@@ -231,7 +235,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_InitialPosition" data-uid="TMPEffects.CharacterData.CharData.InitialPosition">
   InitialPosition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The initial position of this character.</p>
@@ -262,7 +266,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_InitialRotation" data-uid="TMPEffects.CharacterData.CharData.InitialRotation">
   InitialRotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The initial rotation of this character.</p>
@@ -293,7 +297,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_InitialScale" data-uid="TMPEffects.CharacterData.CharData.InitialScale">
   InitialScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The initial scale of this character.</p>
@@ -324,7 +328,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_defaultRotation" data-uid="TMPEffects.CharacterData.CharData.defaultRotation">
   defaultRotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The default rotation of any CharData.</p>
@@ -355,7 +359,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_defaultScale" data-uid="TMPEffects.CharacterData.CharData.defaultScale">
   defaultScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The default scale of any CharData.</p>
@@ -386,7 +390,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_info" data-uid="TMPEffects.CharacterData.CharData.info">
   info
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Holds a selection of <span class="xref">TMPro.TMP_CharacterInfo</span> data.</p>
@@ -394,7 +398,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Info info</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly CharData.Info info</code></pre>
   </div>
 
 
@@ -402,7 +406,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="TMPEffects.CharacterData.Info.html">Info</a></dt>
+    <dt><a class="xref" href="TMPEffects.CharacterData.CharData.html">CharData</a>.<a class="xref" href="TMPEffects.CharacterData.CharData.Info.html">Info</a></dt>
     <dd></dd>
   </dl>
 
@@ -417,7 +421,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_mesh" data-uid="TMPEffects.CharacterData.CharData.mesh">
   mesh
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The mesh of the character.</p>
@@ -453,7 +457,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_Position" data-uid="TMPEffects.CharacterData.CharData.Position">
   Position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The character's position.</p>
@@ -485,7 +489,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_Rotation" data-uid="TMPEffects.CharacterData.CharData.Rotation">
   Rotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The character's rotation.</p>
@@ -517,7 +521,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_RotationPivot" data-uid="TMPEffects.CharacterData.CharData.RotationPivot">
   RotationPivot
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The character's rotation pivot.</p>
@@ -549,7 +553,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_Scale" data-uid="TMPEffects.CharacterData.CharData.Scale">
   Scale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The character's scale.</p>
@@ -581,7 +585,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_alphasDirty" data-uid="TMPEffects.CharacterData.CharData.alphasDirty">
   alphasDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the vertex alphas have been manipulated.</p>
@@ -613,7 +617,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_colorsDirty" data-uid="TMPEffects.CharacterData.CharData.colorsDirty">
   colorsDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the vertex colors have been manipulated.</p>
@@ -645,7 +649,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_initialMesh" data-uid="TMPEffects.CharacterData.CharData.initialMesh">
   initialMesh
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The initial mesh of this character.</p>
@@ -677,7 +681,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_positionDirty" data-uid="TMPEffects.CharacterData.CharData.positionDirty">
   positionDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the position has been manipulated from the character's initial position.</p>
@@ -709,7 +713,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_rotationDirty" data-uid="TMPEffects.CharacterData.CharData.rotationDirty">
   rotationDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the rotation has been manipulated from the character's initial rotation.</p>
@@ -741,7 +745,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_scaleDirty" data-uid="TMPEffects.CharacterData.CharData.scaleDirty">
   scaleDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the scale has been manipulated from the character's initial scale.</p>
@@ -773,7 +777,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_uvsDirty" data-uid="TMPEffects.CharacterData.CharData.uvsDirty">
   uvsDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the UVs have been manipulated.</p>
@@ -805,7 +809,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_verticesDirty" data-uid="TMPEffects.CharacterData.CharData.verticesDirty">
   verticesDirty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the vertices have been manipulated.</p>
@@ -841,7 +845,7 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 
   <h3 id="TMPEffects_CharacterData_CharData_AddPivotDelta_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.AddPivotDelta(UnityEngine.Vector3)">
   AddPivotDelta(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a delta to the pivot of the character.<br>
@@ -875,7 +879,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_AddPositionDelta_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.AddPositionDelta(UnityEngine.Vector3)">
   AddPositionDelta(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a delta to the position of the character.</p>
@@ -908,7 +912,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_AddVertexDelta_System_Int32_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.AddVertexDelta(System.Int32,UnityEngine.Vector3)">
   AddVertexDelta(int, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a positon delta to the vertex at the given index.</p>
@@ -944,7 +948,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_Reset" data-uid="TMPEffects.CharacterData.CharData.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset changes made to the character's mesh, position, rotation, scale and pivot.</p>
@@ -971,7 +975,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetColors" data-uid="TMPEffects.CharacterData.CharData.ResetColors">
   ResetColors()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's vertex colors.</p>
@@ -998,7 +1002,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetPivot" data-uid="TMPEffects.CharacterData.CharData.ResetPivot">
   ResetPivot()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's pivot.</p>
@@ -1025,7 +1029,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetPosition" data-uid="TMPEffects.CharacterData.CharData.ResetPosition">
   ResetPosition()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L229"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's position.</p>
@@ -1052,7 +1056,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetRotation" data-uid="TMPEffects.CharacterData.CharData.ResetRotation">
   ResetRotation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's rotation.</p>
@@ -1079,7 +1083,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetScale" data-uid="TMPEffects.CharacterData.CharData.ResetScale">
   ResetScale()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's scale.</p>
@@ -1106,7 +1110,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetUVs" data-uid="TMPEffects.CharacterData.CharData.ResetUVs">
   ResetUVs()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L245"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's UVs.</p>
@@ -1133,7 +1137,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_ResetVertices" data-uid="TMPEffects.CharacterData.CharData.ResetVertices">
   ResetVertices()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the character's vertices.</p>
@@ -1160,7 +1164,7 @@ Note that the pivot is independent of the character's position, rotation and sca
 
   <h3 id="TMPEffects_CharacterData_CharData_SetPivot_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.SetPivot(UnityEngine.Vector3)">
   SetPivot(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the pivot of this character.<br>
@@ -1194,7 +1198,7 @@ Note that the pivot is independent of the character's position, scale and rotati
 
   <h3 id="TMPEffects_CharacterData_CharData_SetPosition_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.SetPosition(UnityEngine.Vector3)">
   SetPosition(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the position of the character.</p>
@@ -1227,7 +1231,7 @@ Note that the pivot is independent of the character's position, scale and rotati
 
   <h3 id="TMPEffects_CharacterData_CharData_SetRotation_UnityEngine_Quaternion_" data-uid="TMPEffects.CharacterData.CharData.SetRotation(UnityEngine.Quaternion)">
   SetRotation(Quaternion)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the rotation of this character.</p>
@@ -1260,7 +1264,7 @@ Note that the pivot is independent of the character's position, scale and rotati
 
   <h3 id="TMPEffects_CharacterData_CharData_SetScale_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.SetScale(UnityEngine.Vector3)">
   SetScale(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L205"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the scale of this character.</p>
@@ -1293,7 +1297,7 @@ Note that the pivot is independent of the character's position, scale and rotati
 
   <h3 id="TMPEffects_CharacterData_CharData_SetVertex_System_Int32_UnityEngine_Vector3_" data-uid="TMPEffects.CharacterData.CharData.SetVertex(System.Int32,UnityEngine.Vector3)">
   SetVertex(int, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the position of the vertex at the given index.</p>
@@ -1329,7 +1333,7 @@ Note that the pivot is independent of the character's position, scale and rotati
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Luca3317/TMPEffects/blob/main/Runtime/CharData/CharData.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

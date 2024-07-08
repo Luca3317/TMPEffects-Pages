@@ -104,11 +104,16 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TMPEffects.CharacterData.CharDataState.html">CharDataState</a></dt>
-      <dd></dd>
+      <dd><p>Utility class that stores a <a class="xref" href="TMPEffects.CharacterData.CharData.html">CharData</a> and modifications to it, allowing you to make multiple modifications iteratively and to apply at once.<br>
+Used in <a class="xref" href="TMPEffects.Components.TMPAnimator.html">TMPAnimator</a> to apply animations.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TMPEffects.CharacterData.ReadOnlyCharDataState.html">ReadOnlyCharDataState</a></dt>
-      <dd></dd>
+      <dd><p>Readonly version of <a class="xref" href="TMPEffects.CharacterData.CharDataState.html">CharDataState</a>.<br>
+Used to expose the current state of the <a class="xref" href="TMPEffects.CharacterData.CharData.html">CharData</a> in <a class="xref" href="TMPEffects.TMPAnimations.IAnimationContext.html">IAnimationContext</a>, allowing you to take it into account in your animations
+(ideally with late animations, see <a href="https://tmpeffects.luca3317.dev/docs/tmpanimator_gettingstarted.html#late-animations--second-pass">the docs</a>).</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TMPEffects.CharacterData.ReadOnlyVertexData.html">ReadOnlyVertexData</a></dt>
@@ -124,8 +129,17 @@ also holds <a class="xref" href="TMPEffects.html">TMPEffects</a> specific data a
 Structs
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="TMPEffects.CharacterData.Info.html">Info</a></dt>
+      <dt><a class="xref" href="TMPEffects.CharacterData.CharData.Info.html">CharData.Info</a></dt>
       <dd><p>Holds a selection of data of <span class="xref">TMPro.TMP_CharacterInfo</span>, as well as some data about the initial mesh of the character.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TMPEffects.CharacterData.ICharDataState.html">ICharDataState</a></dt>
+      <dd><p>Exposes vertex state of a <a class="xref" href="TMPEffects.CharacterData.CharData.html">CharData</a> to allow iterative modifications.<br>
+Used in <a class="xref" href="TMPEffects.CharacterData.CharDataState.html">CharDataState</a> and <a class="xref" href="TMPEffects.CharacterData.ReadOnlyCharDataState.html">ReadOnlyCharDataState</a>.</p>
 </dd>
     </dl>
     <h3 id="enums">
